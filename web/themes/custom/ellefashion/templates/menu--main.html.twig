@@ -1,0 +1,66 @@
+{#
+/**
+ * @file
+ * Theme override to display a menu.
+ *
+ * Available variables:
+ * - menu_name: The machine name of the menu.
+ * - items: A nested list of menu items. Each menu item contains:
+ *   - attributes: HTML attributes for the menu item.
+ *   - below: The menu item child items.
+ *   - title: The menu link title.
+ *   - url: The menu link url, instance of \Drupal\Core\Url
+ *   - localized_options: Menu link localized options.
+ *   - is_expanded: TRUE if the link has visible children within the current
+ *     menu tree.
+ *   - is_collapsed: TRUE if the link has children within the current menu tree
+ *     that are not currently visible.
+ *   - in_active_trail: TRUE if the link is in the active trail.
+ */
+#}
+{% import _self as menus %}
+
+{#
+  We call a macro which calls itself to render the full tree.
+  @see https://twig.symfony.com/doc/1.x/tags/macro.html
+#}
+{{ menus.menu_links(items, attributes, 0) }}
+
+{% macro menu_links(items, attributes, menu_level) %}
+  {% import _self as menus %}
+  {% if items %}
+    {% if menu_level == 0 %}
+    <nav class="navbar">
+  <div class="container-fluid"> 
+  <div class="navbar-header">
+      <a class="navbar-brand" href="#"> <svg xmlns="http://www.w3.org/2000/svg" style="height:20px" viewBox="0 0 737 266" class="css-19h6pwr e1ccpyf90"><path d="M56.8 253.4H47V131.1h4.3c16.7 0 25.5 17.7 25.5 44.7h2.8V81.6h-2.8c0 23-7.8 46.5-25.5 46.5H47V10.4h12.6c19.7 0 41.4 15.9 41.4 58.4h2.8V7.1H.7v3.3h16.4v243H.7v3.3h103.6v-65.2h-2.8c0 46-23.5 61.9-44.7 61.9zm212.7 0h-12.1v-243h18.7V7.1h-67.2v3.3h18.7v242.8h-18.7v3.3H316V191h-3.3c-.7 43.2-18.7 62.4-43.2 62.4zm221.6 0H479v-243h18.7V7.1h-67.2v3.3h18.7v242.8h-18.7v3.3h107.1V191h-3.3c-.8 43.2-18.7 62.4-43.2 62.4zm243.5-61.9v-.3c0 46-23.5 61.9-44.7 61.9H680v-122h4.3c16.7 0 25.5 17.7 25.5 44.7h2.8V81.6h-2.8c0 23-7.8 46.5-25.5 46.5H680V10.4h12.6c20 0 41.4 15.9 41.4 58.4h2.8V7.1h-103v3.3h16.4v243h-16.4v3.3h103.6v-65.2h-2.8z"></path></svg>
+
+  </a>
+    </div>
+
+      <ul style="margin-left:850px;"{{ attributes.addClass('nav' ,'navbar-nav') }}>
+    {% else %}
+      <ul class="menu" >
+    {% endif %}
+    {% for item in items %}
+      {%
+        set classes = [
+          'nav-item',
+          item.is_expanded ? 'menu-item--expanded',
+          item.is_collapsed ? 'menu-item--collapsed',
+          item.in_active_trail ? 'active',
+          
+        ]
+      %}
+      <li{{ item.attributes.addClass(classes) }}   ">
+        {{ link(item.title, item.url,item.attributes.addClass('nav-link')) }}
+        {% if item.below %}
+          {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+     </div>
+</nav>
+  {% endif %}
+{% endmacro %}

@@ -1,0 +1,117 @@
+
+@import url(//db.onlinewebfonts.com/c/4c4c08af466e9ad071b6d69cf44093df?family=Saol+Display+Regular);
+
+
+.bottom{
+    font-family:  Saol Display Regular;
+}
+body {
+   background-color: white;
+   font-family:  Saol Display Regular;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.navbar a{
+    color: black;
+    font-family:  Saol Display Regular;
+
+}
+
+main{
+    font-family:  Saol Display Regular;
+}
+
+
+/* .node--current_user_is_owner{
+    background-color:red;
+} */
+
+.imgstyle{
+    background-color: grey;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 200px;
+    left:450px;
+    background-color: black;
+    color:white;
+    
+}
+
+.region-panel1 .views-field-title .field-content a{
+   margin-top:100px !important;
+   position: absolute;
+   margin-left: 200px;
+   font-size: 15px;
+   color:black;
+   
+}
+
+
+.region-panel2 .views-field-title .field-content a{
+   
+    
+   color:black;
+   font-size: 15px;
+  
+ }
+
+ .region-panel1 .views-field-field-fashion-image  {
+   
+    margin-left:700px;
+   
+  
+}
+
+.region-panel1 .views-field-field-description{
+    margin-top:130px !important;
+    position: absolute;
+    margin-left: 200px;
+    
+}
+
+.region-panel1 .views-field-uid{
+    margin-top:160px !important;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.region-panel1 .views-row a{
+   
+   
+    font-weight: normal;
+ 
+  
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+
+.region-newsandpolitics .views-col{ 
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 100px;
+        grid-column-gap: 40px;
+}
+.region-newsandpolitics .views-field-field-fashion-image{
+    
+}
+
+.region-newsandpolitics .views-field-title  {
+  
+   align-self: center;
+   white-space: pre-wrap;
+   font-size: 35px;
+   font-family:  Saol Display Regular;
+}
+.region-newsandpolitics .views-field-title .field-content a{
+    color:black ;
+}
+
+.region-newsandpolitics .views-field-field-author{
+    margin-left: 150px;
+    margin-top: 120px;
+}
