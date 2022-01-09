@@ -1,0 +1,48 @@
+{#
+/**
+ * @file
+ * Theme override to display a block.
+ *
+ * Available variables:
+ * - plugin_id: The ID of the block implementation.
+ * - label: The configured label of the block if visible.
+ * - configuration: A list of the block's configuration values.
+ *   - label: The configured label for the block.
+ *   - label_display: The display settings for the label.
+ *   - provider: The module or other provider that provided this block plugin.
+ *   - Block plugin specific settings will also be stored here.
+ * - content: The content of this block.
+ * - attributes: array of HTML attributes populated by modules, intended to
+ *   be added to the main container tag of this template.
+ *   - id: A valid HTML ID and guaranteed unique.
+ * - title_attributes: Same as attributes, except applied to the main title
+ *   tag that appears in the template.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ *
+ * @see template_preprocess_block()
+ */
+#}
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+  ]
+%}
+<div{{ attributes.addClass(classes) }}>
+  {{ title_prefix }}
+  {% if label %}
+    <h2{{ title_attributes }}>{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+   <a class="navbar-brand" href="{{ url('<front>') }}"> <svg xmlns="http://www.w3.org/2000/svg" style="margin-right:250px;height:30px;" viewBox="0 0 737 266"><path style="fill:white;" d="M56.8 253.4H47V131.1h4.3c16.7 0 25.5 17.7 25.5 44.7h2.8V81.6h-2.8c0 23-7.8 46.5-25.5 46.5H47V10.4h12.6c19.7 0 41.4 15.9 41.4 58.4h2.8V7.1H.7v3.3h16.4v243H.7v3.3h103.6v-65.2h-2.8c0 46-23.5 61.9-44.7 61.9zm212.7 0h-12.1v-243h18.7V7.1h-67.2v3.3h18.7v242.8h-18.7v3.3H316V191h-3.3c-.7 43.2-18.7 62.4-43.2 62.4zm221.6 0H479v-243h18.7V7.1h-67.2v3.3h18.7v242.8h-18.7v3.3h107.1V191h-3.3c-.8 43.2-18.7 62.4-43.2 62.4zm243.5-61.9v-.3c0 46-23.5 61.9-44.7 61.9H680v-122h4.3c16.7 0 25.5 17.7 25.5 44.7h2.8V81.6h-2.8c0 23-7.8 46.5-25.5 46.5H680V10.4h12.6c20 0 41.4 15.9 41.4 58.4h2.8V7.1h-103v3.3h16.4v243h-16.4v3.3h103.6v-65.2h-2.8z"></path></svg>
+  </a>
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+ </div>
+ <br><br><br>
+ 
