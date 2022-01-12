@@ -55,6 +55,9 @@
 
 </div>
   </header>
+
+<div class="main-container">
+
 <div class="container">
 
 <div class="container">
@@ -67,18 +70,25 @@
 
 
 {% if not is_front%}
+
 {{ page.panel }}
  
 {% endif %}
 </div>
-{{page.panel1}}
-<br><br>
+<div class="container">
+ {% if is_front %}
+ <div class="panel1">
+   {{ page.panel1}}
+   </div>
+   {% endif %}
+   </div>
+
 {% if is_front %}
+
+
 <hr>
-<center><h1 style="font-size:80px;font-family:  Saol Display Regular;
-">Fashion</h1>
-<h1 style="font-size:30px;font-family:  Saol Display Regular;
-"><i>new arrivals</i></h1></center><br><br>
+<center><h1 class="textstyle">Fashion</h1>
+<h1 class="textstyle-font2"><i>new arrivals</i></h1></center><br><br>
 
 <hr>
 {% endif %}
@@ -91,8 +101,7 @@
 
 {% if is_front %}
 <hr>
-<center><h1 style="font-size:80px;font-family:  Saol Display Regular;
-">GIFT GUIDES</h1></center><br><br>
+<center><h1 class="textstyle">GIFT GUIDES</h1></center><br><br>
 
 <hr>
 {% endif %}
@@ -102,15 +111,12 @@
 </div>
 {% if is_front %}
 <hr>
-<center><h1 style="font-size:80px;font-family:  Saol Display Regular;
-">BEAUTY</h1></center><br><br>
+<center><h1 class="textstyle">BEAUTY</h1></center><br><br>
 
 <hr>
 {% endif %}
-<div class="container">
- <div class="row" style="   display: flex;           /* establish flex container */
-    flex-direction: row;  /* make main axis vertical */
-    justify-content: center;">
+<div class="container beauty">
+ <div class="row">
 
 <div class="col-md-9">
   {{ page.viewBeauty1 }}
@@ -123,10 +129,8 @@
 </div>
 </div>
  </div>
-<div class="container">
-  <div class="row" style="   display: flex;           /* establish flex container */
-    flex-direction: row;  /* make main axis vertical */
-    ">
+<div class="container beauty">
+  <div class="row" >
 
 <div class="col-md-3">
   {{ page.viewStylePoints}}
@@ -139,20 +143,15 @@
 </div>
 </div>
  </div>
-<div class="container">
- 
-</div>
+
 {% if is_front %}
 <hr>
-<center><h1 style="font-size:80px;font-family:  Saol Display Regular;
-">CULTURE</h1></center><br><br>
+<center><h1 class="textstyle">CULTURE</h1></center><br><br>
 
 <hr>
 {% endif %}
- <div class="container">
- <div class="row" style="   display: flex;           /* establish flex container */
-    flex-direction: row;  /* make main axis vertical */
-    justify-content: center;">
+ <div class="container beauty">
+ <div class="row ">
 
 <div class="col-md-9">
   {{ page.viewCulture }}
@@ -167,8 +166,7 @@
  </div>
  {% if is_front %}
 <hr>
-<center><br><h1 style="font-size:25px;font-family:  Saol Display Regular;
-"><i>Clothes Of Our Lives</i></h1></center><br>
+<center><br><h1 class="textstyle-font3"><i>Clothes Of Our Lives</i></h1></center><br>
 
 <hr>
 {% endif %}
@@ -179,22 +177,33 @@
 
   {% if is_front %}
 <hr>
-<center><h1 style="font-size:80px;font-family:  Saol Display Regular;
-">NEWS & POLITICS</h1></center><br><br>
+<center><h1 class="textstyle">NEWS & POLITICS</h1></center><br><br>
 
 <hr>
 {% endif %}
    <div class="container">
-
+ {% if is_front %}
+ <div class="panel1">
    {{ page.newsAndPolitics}}
    </div>
-<br><br><br><br><br>
-<br><br><br><br><br>
-<br><br><br><br><br><br>
-<div class="container">
+   {% endif %}
+   </div>
+   
+
+
+
 {{page.video}} 
-</div>
-    <div class="row">
+
+
+<br><br>
+ {% if is_front %}
+<hr>
+<center><br><h1 class="textstyle-font3"><i>NOW TRENDING</i></h1></center><br>
+
+<hr>
+{% endif %}
+
+    <div class="container">
 
    {{ page.trending}}
    
@@ -203,15 +212,38 @@
 
 
   
+    </div>
+  
+    {{ page.footer_first }} 
+
+  
+<div class="row" style="background-color:black;">
+ <div style="background-color:black;" class="container">
+
+<div class="col-md-3">
+  {{  page.footer_mini1  }}
+</div>
+<div class="col-md-3">
+  {{  page.footer_mini2  }}
+</div>
+<div class="col-md-3">
+  {{  page.footer_mini3 }}
+</div>
+<div class="col-md-3">
+{{  page.footer_mini4  }}
+</div>
+</div>
+
     
+  </div>
+<div class="footer-second">
+<div class="row">
+<div class="container">
+{{ page.footer_second }}
+</div>
+</div>
+</div>
+{# /.layout-container #}
 
-    <footer role="contentinfo" class="row">
+{# /.layout-container #}
 
-    <div> {{ page.footer_first }} </div>
-    
-    </footer>
-
-
-</div>{# /.layout-container #}
-
-</div>{# /.layout-container #}

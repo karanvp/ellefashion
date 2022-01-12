@@ -1,0 +1,369 @@
+@import url(//db.onlinewebfonts.com/c/4c4c08af466e9ad071b6d69cf44093df?family=Saol+Display+Regular);
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Mea+Culpa&display=swap");
+.navbar a {
+  color: black;
+  font-family: Saol Display Regular;
+}
+
+.container a {
+  text-decoration: none;
+  color: black !important;
+}
+
+.textstyle {
+  font-size: 80px;
+  font-family: Saol Display Regular;
+}
+
+.textstyle-font2 {
+  font-size: 30px;
+  font-family: Saol Display Regular;
+}
+
+.textstyle-font3 {
+  font-size: 25px;
+  font-family: Saol Display Regular;
+}
+
+.main-container {
+  font-family: Saol Display Regular;
+}
+
+.region-viewbeauty1 .views-field-title {
+  margin-top: 10px;
+}
+.region-viewbeauty1 .views-field-title a {
+  font-family: Saol Display Regular;
+  font-size: 30px;
+}
+
+.region-viewculture .views-field-title {
+  margin-top: 10px;
+}
+.region-viewculture .views-field-title a {
+  font-family: Saol Display Regular;
+  font-size: 30px;
+}
+
+.region-viewculture2 .views-field-title a {
+  font-family: Saol Display Regular;
+  font-size: 16px;
+}
+
+.region-viewbeauty2 .views-field-title a {
+  font-family: Saol Display Regular;
+  font-size: 16px;
+}
+
+.region-viewgiftguides .views-field-title a {
+  font-size: 16px;
+}
+
+.region-panel2 .views-field-field-main-description p {
+  font-family: Saol Display Regular;
+  font-size: 30px;
+}
+
+.region-panel1 .views-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px;
+  grid-column-gap: 40px;
+}
+
+.panel1 {
+  height: 80vh;
+}
+
+.region-panel1 .views-field-title {
+  align-self: center;
+  white-space: pre-wrap;
+  font-size: 35px;
+  font-family: Saol Display Regular;
+}
+
+.region-panel1 .views-field-title .field-content a {
+  color: black;
+  text-decoration: none;
+  color: black;
+}
+
+.region-panel1 .views-field-field-author {
+  margin-left: 150px;
+  margin-top: 120px;
+}
+
+.region-panel2 .views-field-title .field-content a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.region-newsandpolitics .views-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px;
+  grid-column-gap: 40px;
+}
+
+.region-newsandpolitics .views-field-title {
+  align-self: center;
+  white-space: pre-wrap;
+  font-size: 35px;
+  font-family: Saol Display Regular;
+}
+
+.region-newsandpolitics .views-field-title .field-content a {
+  color: black;
+  text-decoration: none;
+  color: black;
+}
+
+.region-newsandpolitics .views-field-field-author {
+  margin-left: 150px;
+  margin-top: 120px;
+}
+
+.region-video .views-field-title a {
+  align-self: center;
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+  font-family: Saol Display Regular;
+}
+
+.region-video video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.region-footer-first {
+  background-color: black;
+  color: white;
+}
+
+#block-f1 {
+  margin-top: 20px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.field--type-fontawesome-icon {
+  margin-left: 20px;
+}
+
+#block-ellefooter {
+  background-color: black;
+  color: white;
+  font-family: "Lora", serif;
+  font-size: 13px;
+}
+
+.field--name-field-icon1 {
+  margin-top: 15px;
+}
+
+.field--name-field-icon2 {
+  margin-top: 15px;
+}
+
+.field--name-field-icon3 {
+  margin-top: 15px;
+}
+
+.field--name-field-icon4 {
+  margin-top: 15px;
+}
+
+.field--name-field-icon5 {
+  margin-top: 15px;
+}
+
+.region-footer-mini1 {
+  background-color: black;
+}
+
+.region-footer-mini1 a {
+  color: white !important;
+  line-height: 2;
+}
+
+.region-footer-mini2 {
+  background-color: black;
+}
+
+.region-footer-mini2 a {
+  color: white !important;
+  line-height: 2;
+}
+
+.region-footer-mini3 {
+  background-color: black;
+}
+
+.region-footer-mini3 a {
+  color: white !important;
+  line-height: 2;
+}
+
+.region-footer-mini4 {
+  background-color: black;
+}
+
+.region-footer-mini4 a {
+  color: white !important;
+  line-height: 2;
+}
+
+.region-footer-first {
+  background-color: black;
+}
+
+.region-footer-second {
+  background-color: black;
+  color: white;
+}
+
+.footer-second .row {
+  background-color: black;
+}
+
+.beauty .row {
+  display: flex;
+  /* establish flex container */
+  flex-direction: row;
+  /* make main axis vertical */
+  justify-content: center;
+}
+
+.culture .row {
+  display: flex;
+  /* establish flex container */
+  flex-direction: row;
+  /* make main axis vertical */
+  justify-content: center;
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+  .region-panel1 .views-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 80px;
+  }
+
+  .region-newsandpolitics .views-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 80px;
+  }
+
+  .beauty .row {
+    display: flex;
+    /* establish flex container */
+    flex-direction: column;
+    /* make main axis vertical */
+    justify-content: center;
+  }
+
+  .culture.row {
+    display: flex;
+    /* establish flex container */
+    flex-direction: column;
+    /* make main axis vertical */
+    justify-content: center;
+  }
+
+  .views-field-field-banner-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .region-video video {
+    width: 100%;
+    height: auto;
+  }
+
+  .region-newsandpolitics img {
+    width: 100%;
+    height: auto;
+  }
+
+  .region-viewbeauty1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .region-panel2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .region-panel1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .region-viewstylepoints img {
+    width: 100%;
+    height: auto;
+  }
+
+  .region-viewofficehours .views-col {
+    width: 100% !important;
+  }
+  .region-viewofficehours img {
+    width: 100%;
+    height: auto;
+  }
+
+  .region-viewgiftguides .views-col {
+    width: 100% !important;
+  }
+  .region-viewgiftguides img {
+    width: 100%;
+    height: auto;
+  }
+
+  .region-viewclothes .views-col {
+    width: 100% !important;
+  }
+  .region-viewclothes img {
+    width: 100%;
+    height: auto;
+  }
+
+  .panel1 {
+    height: 0vh !important;
+  }
+
+  .region-viewculture img {
+    width: 100%;
+    height: auto;
+  }
+
+  .region-trending .views-col {
+    width: 100% !important;
+  }
+  .region-trending img {
+    width: 100%;
+    height: auto;
+  }
+
+  .region-panel1 .views-field-field-author {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .region-primary-menu ul {
+    margin-left: 75px !important;
+  }
+  .region-primary-menu li a {
+    color: red !important;
+  }
+
+  .region-newsandpolitics .views-field-field-author {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}

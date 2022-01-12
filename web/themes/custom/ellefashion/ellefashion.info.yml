@@ -21,17 +21,24 @@ regions:
   viewCulture2: 'viewCulture2'
   viewClothes: 'viewClothes'
   newsAndPolitics: 'newsAndPolitics'
-  trending: 'trending'
   video: 'video'
+  trending: 'trending'
 
  
   highlighted: 'Highlighted'
- 
+
   footer_first: 'Footer first'
+  footer_mini1: 'Footer mini1'
+  footer_mini2: 'Footer mini2'
+  footer_mini3: 'Footer mini3'
+  footer_mini4: 'Footer mini4'
+  footer_second: 'Footer second'
+  
 
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 
 libraries:
   - ellefashion/global
+  
   

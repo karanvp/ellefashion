@@ -1,6 +1,7 @@
 
 @import url(//db.onlinewebfonts.com/c/4c4c08af466e9ad071b6d69cf44093df?family=Saol+Display+Regular);
 
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Mea+Culpa&display=swap');
 
 .bottom{
     font-family:  Saol Display Regular;
@@ -20,6 +21,10 @@ body {
 
 }
 
+a{
+    text-decoration: none;
+    color: black !important;
+}
 main{
     font-family:  Saol Display Regular;
 }
@@ -42,53 +47,46 @@ main{
     
 }
 
-.region-panel1 .views-field-title .field-content a{
-   margin-top:100px !important;
-   position: absolute;
-   margin-left: 200px;
-   font-size: 15px;
-   color:black;
-   
+.region-panel1 .views-col{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 100px;
+    grid-column-gap: 40px;
+ 
 }
+
+.region-panel1 .views-field-title  {
+  
+    align-self: center;
+    white-space: pre-wrap;
+    font-size: 35px;
+    font-family:  Saol Display Regular;
+ }
+ .region-panel1 .views-field-title .field-content a{
+     color:black ;
+     text-decoration: none;
+     color: black;
+ }
+
+ .region-panel1 .views-field-field-author{
+    margin-left: 150px;
+    margin-top: 120px;
+}
+
 
 
 .region-panel2 .views-field-title .field-content a{
    
     
-   color:black;
+   
    font-size: 15px;
-  
+   text-decoration: none;
+   color: black;
  }
 
- .region-panel1 .views-field-field-fashion-image  {
-   
-    margin-left:700px;
-   
-  
-}
-
-.region-panel1 .views-field-field-description{
-    margin-top:130px !important;
-    position: absolute;
-    margin-left: 200px;
-    
-}
-
-.region-panel1 .views-field-uid{
-    margin-top:160px !important;
-    position: absolute;
-    margin-left: 200px;
-}
-
-.region-panel1 .views-row a{
-   
-   
-    font-weight: normal;
  
-  
-    -webkit-text-decoration: none;
-    text-decoration: none;
-}
+
+
 
 .region-newsandpolitics .views-col{ 
         display: grid;
@@ -109,9 +107,110 @@ main{
 }
 .region-newsandpolitics .views-field-title .field-content a{
     color:black ;
+    text-decoration: none;
+    color: black;
 }
 
 .region-newsandpolitics .views-field-field-author{
     margin-left: 150px;
     margin-top: 120px;
+}
+
+.region-video .views-field-title a{
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-family:  Saol Display Regular;
+}
+
+.region-footer-first{
+    background-color: black;
+    color:white;
+    
+}
+
+#block-f1{
+    margin-top: 20px;
+    margin-left: 100px;
+    
+   display: flex;
+   flex-direction: row;
+}
+
+.field--type-fontawesome-icon{
+    margin-left: 20px;
+}
+
+#block-ellefooter{
+    background-color: black ;
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 13px;
+}
+
+.field--name-field-icon1{
+    margin-top: 15px;
+}
+.field--name-field-icon2{
+    margin-top: 15px;
+}
+.field--name-field-icon3{
+    margin-top: 15px;
+}
+.field--name-field-icon4{
+    margin-top: 15px;
+}
+.field--name-field-icon5{
+    margin-top: 15px;
+}
+
+.region-footer-mini1{
+    background-color: black;
+}
+
+.region-footer-mini1 a{
+    color: white !important;
+}
+
+.region-footer-mini2{
+    background-color: black;
+}
+
+.region-footer-mini2 a{
+    color: white !important;
+}
+
+.region-footer-mini3{
+    background-color: black;
+}
+
+.region-footer-mini3 a{
+    color: white !important;
+}
+
+.region-footer-mini4{
+    background-color: black;
+}
+
+.region-footer-mini4 a{
+    color: white !important;
+}
+
+.test{
+    background-color: black;
+    color: white;
+}
+
+.region-footer-first{
+    background-color: black;
+}
+
+.region-footer-second{
+    background-color: black;
+    color: white;
+}
+
+.footer-second .row{
+    background-color: black;
 }
