@@ -9,5 +9,5 @@ bootstrap:
 global:
   css:
     theme:
-      css/global.css: {}    
+      css/main.css: {}    
       //fonts.googleapis.com/css?family=Pacifico: {type: external}
