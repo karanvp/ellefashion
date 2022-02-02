@@ -35,17 +35,17 @@
 
 <div{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
-  {% if label %}
-    <h2{{ title_attributes }}>{{ label }}</h2>
-  {% endif %}
+    {% if label %}
+        <h2{{ title_attributes }}>{{ label }}</h2>
+    {% endif %}
   {{ title_suffix }}
-  <br><br>
-  <img style="margin-left:60px;" width="192" height="55" alt="Hearst Fashion and Luxury Collection - A Part of Hearst Digital Media" title="Hearst Fashion and Luxury Collection - A Part of Hearst Digital Media" fill="white" src="./themes/custom/ellefashion/network.svg">
-  <br><br>  <br><br>
-  <div class="container">
+  
+  <img style="margin-left:-5px;" width="192" height="55" alt="Hearst Fashion and Luxury Collection - A Part of Hearst Digital Media" title="Hearst Fashion and Luxury Collection - A Part of Hearst Digital Media" fill="white" src="./themes/custom/ellefashion/network.svg">
+  <br><br>  
+
   {% block content %}
     {{ content }}
   {% endblock %}
 
   </div>
-</div>
+

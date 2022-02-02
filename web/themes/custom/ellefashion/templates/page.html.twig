@@ -42,208 +42,190 @@
  * @see html.html.twig
  */
 #}
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
-
-
- <header>
-
-  <div> 
-  {{page.header}}
-
-</div>
+  <header>
+    <div> 
+      {{page.header}}
+    </div>
   </header>
 
 <div class="main-container">
-
-<div class="container">
-
-<div class="container">
-     {{ page.primary_menu}}
-     {{  page.ads }}
-</div>
-  <br>
-
-<main role="main">
-
-
-{% if not is_front%}
-
-{{ page.panel }}
- 
-{% endif %}
-</div>
-<div class="container">
- {% if is_front %}
- <div class="panel1">
-   {{ page.panel1}}
-   </div>
-   {% endif %}
-   </div>
-
-{% if is_front %}
-
-
-<hr>
-<center><h1 class="textstyle">Fashion</h1>
-<h1 class="textstyle-font2"><i>new arrivals</i></h1></center><br><br>
-
-<hr>
-{% endif %}
-<div class="container">
-{{ page.panel2 }}
-
-</div>
-
-
-
-{% if is_front %}
-<hr>
-<center><h1 class="textstyle">GIFT GUIDES</h1></center><br><br>
-
-<hr>
-{% endif %}
- 
-<div class="container">
-{{ page.viewGiftGuides }}
-</div>
-{% if is_front %}
-<hr>
-<center><h1 class="textstyle">BEAUTY</h1></center><br><br>
-
-<hr>
-{% endif %}
-<div class="container beauty">
- <div class="row">
-
-<div class="col-md-9">
-  {{ page.viewBeauty1 }}
-  
-</div>
-
-<div class="col-md-3">
-  {{ page.viewBeauty2 }}
-  
-</div>
-</div>
- </div>
-<div class="container beauty">
-  <div class="row" >
-
-<div class="col-md-3">
-  {{ page.viewStylePoints}}
-  
-</div>
-
-<div class="col-md-3">
-  {{ page.viewOfficeHours }}
-  
-</div>
-</div>
- </div>
-
-{% if is_front %}
-<hr>
-<center><h1 class="textstyle">CULTURE</h1></center><br><br>
-
-<hr>
-{% endif %}
- <div class="container beauty">
- <div class="row ">
-
-<div class="col-md-9">
-  {{ page.viewCulture }}
-  
-</div>
-
-<div class="col-md-3">
-  {{ page.viewCulture2 }}
-  
-</div>
-</div>
- </div>
- {% if is_front %}
-<hr>
-<center><br><h1 class="textstyle-font3"><i>Clothes Of Our Lives</i></h1></center><br>
-
-<hr>
-{% endif %}
- <div class="container">
-   {{ page.viewClothes }}
-
-   </div>
-
-  {% if is_front %}
-<hr>
-<center><h1 class="textstyle">NEWS & POLITICS</h1></center><br><br>
-
-<hr>
-{% endif %}
-   <div class="container">
- {% if is_front %}
- <div class="panel1">
-   {{ page.newsAndPolitics}}
-   </div>
-   {% endif %}
-   </div>
-   
-
-
-
-{{page.video}} 
-
-
-<br><br>
- {% if is_front %}
-<hr>
-<center><br><h1 class="textstyle-font3"><i>NOW TRENDING</i></h1></center><br>
-
-<hr>
-{% endif %}
+    <div>
+      {{ page.primary_menu}}    
+    </div>
 
     <div class="container">
-
-   {{ page.trending}}
-   
-   </div>
-  </main>
-
-
-  
+    <br>
+        {% if not is_front%}
+            {{ page.panel }}      
+        {% endif %}
     </div>
-  
-    {{ page.footer_first }} 
 
-  
-<div class="row" style="background-color:black;">
- <div style="background-color:black;" class="container">
+    <div class="container">
+      {% if is_front %}
+          <div class="panel1">
+          {{ page.panel1}}
+          </div>
+      {% endif %}
+    </div>
 
-<div class="col-md-3">
-  {{  page.footer_mini1  }}
-</div>
-<div class="col-md-3">
-  {{  page.footer_mini2  }}
-</div>
-<div class="col-md-3">
-  {{  page.footer_mini3 }}
-</div>
-<div class="col-md-3">
-{{  page.footer_mini4  }}
-</div>
-</div>
+    {% if is_front %}
+    <div class="container">
+        <hr>
+          <center>
+          <h1 class="textstyle">Fashion</h1>
+          <h1 class="textstyle-font2"><i>new arrivals</i></h1>
+        </center>
+      <hr>
+    </div>
+    {% endif %}
 
-    
+  <div class="container">
+      <div class="col-md-9">
+         {{ page.panel2 }}
+      </div>
   </div>
-<div class="footer-second">
-<div class="row">
-<div class="container">
-{{ page.footer_second }}
-</div>
-</div>
-</div>
-{# /.layout-container #}
 
-{# /.layout-container #}
+  <div class="container">
+      {{ page.viewGiftGuides }}
+  </div>
+
+    {% if is_front %}
+        <div class="container">
+            <hr>
+            <center>
+                <h1 class="textstyle">BEAUTY</h1>
+                <span class="text-cursive">Fresh Finds</span>
+            </center>
+            <hr>
+        </div>
+    {% endif %}
+
+    <div class="container beauty">
+        <div class="row">
+            <div class="col-md-9">
+              {{ page.viewBeauty1 }}
+            </div>
+
+            <div class="col-md-4">
+              {{ page.viewBeauty2 }}
+            </div>
+         </div>
+      </div>
+ 
+    <div class="container ">
+          <div class="row">
+              <div class="col-md-5 fillColor"></div>
+              <div class="col-md-5 fillColor"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              {{ page.viewStylePoints}}
+            </div>
+
+            <div class="col-md-4">
+              {{ page.viewOfficeHours }}
+            </div>
+          </div>      
+     </div>
+
+    {% if is_front %}
+        <div class="container">
+            <hr>
+          <center>
+          <h1 class="textstyle">CULTURE</h1>
+          <span class="text-cursive">Books, Movies, TV & More</span>
+          </center>
+            <hr>
+        </div>
+    {% endif %}
+
+    <div class="container beauty">
+        <div class="row ">
+            <div class="col-md-9">
+              {{ page.viewCulture }}
+            </div>
+
+            <div class="col-md-4">
+              {{ page.viewCulture2 }}
+            </div>
+          </div>
+      </div>
+
+    {% if is_front %}
+    <div class="container">
+        <hr>
+        <center><br><h1 class="textstyle-font3"><i>Clothes Of Our Lives</i></h1><br></center>
+        <hr>
+    </div>
+    {% endif %}
+
+    <div class="container">
+       {{ page.viewClothes }}
+    </div>
+
+    {% if is_front %}
+    <div class="container">
+        <hr>
+        <center>
+        <h1 class="textstyle">NEWS & POLITICS</h1>
+        <span class="text-cursive">Power & Influence</span>
+        </center>
+         <hr>
+      </div>
+    {% endif %}
+
+    <div class="container">
+    {% if is_front %}
+        <div class="panel1">
+          {{ page.newsAndPolitics}}
+        </div>
+    {% endif %}
+    </div>
+
+    <div class="container">
+        {{page.video}} 
+    </div>
+<br><br>
+
+    {% if is_front %}
+    <div class="container">
+    <hr>
+        <center>
+        <br><h1 class="textstyle-font3"><i>NOW TRENDING</i></h1><br>
+        </center>
+    <hr>
+    </div>
+    {% endif %}
+
+    <div class="container">
+        {{ page.trending}}
+   </div>
+</div>
+
+{{ page.footer_first }} 
+  
+<div class="row footer-mini" style="background-color:black; padding-left:90px;">
+    <div class="col-md-3">
+      {{  page.footer_mini1  }}
+    </div>
+    <div class="col-md-3">
+      {{  page.footer_mini2  }}
+    </div>
+    <div class="col-md-3">
+      {{  page.footer_mini3 }}
+    </div>
+    <div class="col-md-3">
+    {{  page.footer_mini4  }}
+    </div>
+  </div>
+
+<div class="row" style="background-color:black; padding-left:90px;">
+    {{ page.footer_second }}
+</div>
+
 

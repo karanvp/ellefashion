@@ -8,7 +8,6 @@ package: Custom
 regions:
   header: 'Header Extended'
   primary_menu: 'Primary menu'
-  ads: 'ads'
   panel: 'panel'
   panel1: 'panel1'
   panel2: 'panel2'
