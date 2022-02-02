@@ -4,6 +4,20 @@
     color: $black !important;
   }
 
+  a{
+    text-decoration:none !important;
+  }
+
+
+  
+  .col-md-4{
+    margin-right: -40px !important;
+ }
+
+ .col-md-5{
+   width: 30% !important;
+ }
+
   .textstyle{
     font-size:80px;font-family:  Saol Display Regular
   }
@@ -13,11 +27,172 @@
   }
 
   .textstyle-font3{
-    font-size:25px;font-family:  Saol Display Regular;
+    font-size:29px;font-family:  Saol Display Regular;
+    
+  }
+
+  .text-cursive{
+    font-style: italic;
+    font-size: 35px;
+    font-weight: 500;
   }
 
   .main-container{
     font-family: Saol Display Regular;
+  }
+
+  
+
+  .region-panel2 {
+  text-align: center;
+  .views-field-field-main-description {
+
+    padding-top: 20px;
+    padding-left:6px;
+  p{
+    font-family: Saol Display Regular;
+    font-size: 37px;
+    text-align: center;
+    font-weight: 230;
+  }
+
+}
+
+  .views-field-field-brief-description{
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+
+  .views-field-field-author{
+    
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+}
+  // .main-container{
+  //   display: flex;
+  //   flex-wrap: wrap;
+  // }
+  
+.region-panel1 .views-col {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 100px;
+    grid-column-gap: 80px;
+    
+    
+  }
+
+
+  .panel1{
+    height: 100vh;
+  }
+  .region-panel1 .views-field-title {
+    text-align: center;
+    align-self: center;
+    white-space: pre-wrap;
+    font-size: 46px;
+    font-family: Saol Display Regular;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 100px;
+  }
+
+  .region-panel1 .views-field-field-description{
+   
+    margin-left: 40px;
+    margin-right: 7px;
+    margin-top: -105px;
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+
+  .region-panel1 .views-field-field-fashion-image img{
+    width: 600px;
+    height: auto;
+  }
+  
+  .region-panel1 .views-field-title .field-content a {
+    color: black;
+    text-decoration: none;
+    color: $black;
+  }
+  
+  .region-panel1 .views-field-field-author {
+    padding-top: 320px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .region-panel1 .views-field-field-brief{
+    
+    margin-left :-1205px;
+    margin-top:-50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-align:center;  
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 1;
+    letter-spacing: 0.1em;
+  }
+  
+  .region-panel2 .views-field-title .field-content a {
+    font-size: 15px;
+    text-decoration: none;
+    color: $black;
+  }
+
+   
+  .fillColor{
+    background-color: $black;
+    margin-right:10px;
+    height:3vh;
+    
+  }
+
+  .region-viewstylepoints  {
+    .views-row{
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px;
+
+      
+
+      .views-field-field-fashion-image{
+        padding-right: 10px;
+      }
+
+      .views-field-title{
+        padding-top: 30px;
+        a{
+          font-size: 18px;
+        }
+       
+      }
+
+      .views-field-field-author{
+        position: absolute;
+        padding-left: 165px;
+        margin-top: 90px;   
+        font-weight: bold;
+        line-height: 1.6;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+    }
   }
 
   .region-viewbeauty1 {
@@ -34,10 +209,11 @@
 .region-viewculture{
   .views-field-title{
     margin-top: 10px;
+    text-align: center;
     a{
       font-family: Saol Display Regular;
       font-size: 30px;
-  
+      
       
     }
   }
@@ -59,51 +235,44 @@
       }
     }
   }
+  .region-viewofficehours{
+     .views-row{
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px;
 
-  .region-panel2 .views-field-field-main-description p{
-    font-family: Saol Display Regular;
-    font-size: 30px;
-  }
-  // .main-container{
-  //   display: flex;
-  //   flex-wrap: wrap;
-  // }
-  
-.region-panel1 .views-col {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    
-   grid-template-rows: 100px;
-    grid-column-gap: 80px;
-    
+      
+
+      .views-field-field-fashion-image{
+        padding-right: 10px;
+      }
+
+      .views-field-title{
+        padding-top: 30px;
+
+        a{
+          font-size: 18px;
+          
+        }
+       
+      }
+
+      .views-field-field-author{
+        position: absolute;
+        padding-left: 165px;
+        margin-top: 90px;  
+        a{
+          font-weight: bold;
+          line-height: 1.6;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          font-size: 12px;
+        } 
+      }
+    }
+
   }
 
-  .panel1{
-    height: 80vh;
-  }
-  .region-panel1 .views-field-title {
-    align-self: center;
-    white-space: pre-wrap;
-    font-size: 35px;
-    font-family: Saol Display Regular;
-  }
-  
-  .region-panel1 .views-field-title .field-content a {
-    color: black;
-    text-decoration: none;
-    color: $black;
-  }
-  
-  .region-panel1 .views-field-field-author {
-    margin-left: 150px;
-    margin-top: 120px;
-  }
-  
-  .region-panel2 .views-field-title .field-content a {
-    font-size: 15px;
-    text-decoration: none;
-    color: $black;
-  }
 
   
   
@@ -112,13 +281,17 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px;
     grid-column-gap: 40px;
+    text-align: center;
   }
   
   .region-newsandpolitics .views-field-title {
     align-self: center;
     white-space: pre-wrap;
-    font-size: 35px;
+    font-size: 46px;
     font-family: Saol Display Regular;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 100px;
   }
   
   .region-newsandpolitics .views-field-title .field-content a {
@@ -128,72 +301,138 @@
   }
   
   .region-newsandpolitics .views-field-field-author {
-    margin-left: 150px;
-    margin-top: 120px;
+   
+    padding-top: 320px;
+    font-family: NeueHaasUnica,Arial,sans-serif;
+    font-size: 10px;
+    line-height: 1.6;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .region-newsandpolitics .views-field-field-fashion-image img{
+    width: 600px;
+    height: auto;
+  }
+
+  .region-viewclothes{
+    .views-field-title{
+      a{
+        font-weight: bold;
+        color: black;
+      }
+    }
+
+    // .views-row{
+    //   width: 100%;
+    //   margin-left: 40px;
+    // }
+
+    // .views-col{
+    //   margin-left: ;
+    // }
+
+   
+   
+    .views-field-field-fashion-image{
+     
+      img{
+        width: 300px;
+        height: auto;
+        
+      }
+    }
   }
   
-  .region-video .views-field-title a {
-    align-self: center;
+  .region-video {
+
+  .views-field-title{
+
+    text-align: center;
+   a {
+    
     text-decoration: none;
     color: $black;
     font-size: 35px;
     font-family: Saol Display Regular;
+    text-align:center;  
+   
   }
+}
+  .views-field-field-description{
+    text-align: center;
+    .field-content {
+    
+      text-decoration: none;
+      color: $black;
+      font-size: 11px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-align:center;  
+      text-transform: uppercase;
+      text-decoration: underline;
+      line-height: 1;
+      letter-spacing: 0.1em;
+      padding-top:20px;
+      padding-bottom: 20px;
+    }
+  }
+
+
+}
   
   .region-video video{
     width:100% !important;
     height:auto !important;
+  
   }
   .region-footer-first {
     background-color: black;
     color: $white;
+    height:85px;
+  }
+
+  #block-f1 .field--type-fontawesome-icon{
+    margin-top: 48px ;
   }
   
+  .footer{
+    background-color: black;
+    margin-left: 90px;
+
+  }
   #block-f1 {
-    margin-top: 20px;
-    margin-left: 100px;
+  
+   
     display: flex;
     flex-direction: row;
+   ;
   }
   
   .field--type-fontawesome-icon {
-    margin-left: 20px;
+  
+    margin-left: 30px;
+   
+  }
+
+  .footer-mini .col-md-3{
+    margin-right: -37px !important;
   }
   
-  #block-ellefooter {
-    background-color: black;
-    color: $white;
-    font-family: "Lora", serif;
-    font-size: 13px;
-  }
   
-  .field--name-field-icon1 {
-    margin-top: 15px;
+  #block-ellefooter-2 p{
+    font-size: 12px;
   }
-  
-  .field--name-field-icon2 {
-    margin-top: 15px;
-  }
-  
-  .field--name-field-icon3 {
-    margin-top: 15px;
-  }
-  
-  .field--name-field-icon4 {
-    margin-top: 15px;
-  }
-  
-  .field--name-field-icon5 {
-    margin-top: 15px;
-  }
-  
   .region-footer-mini1 {
     background-color: $black;
   }
   
   .region-footer-mini1 a {
     color: white !important;
-    line-height: 2;
+    line-height: 2.9;
+    font-size: 11px;
+    font-weight: bolder;
   }
   
   .region-footer-mini2 {
@@ -203,7 +442,9 @@
   
   .region-footer-mini2 a {
     color: $white !important;
-     line-height: 2;
+    line-height: 3;
+     font-size: 11px;
+     font-weight: bolder;
   }
   
   .region-footer-mini3 {
@@ -212,7 +453,9 @@
   
   .region-footer-mini3 a {
     color: $white !important;
-    line-height: 2;
+    line-height: 3;
+    font-size: 11px;
+    font-weight: bolder;
   }
   
   .region-footer-mini4 {
@@ -221,7 +464,9 @@
   
   .region-footer-mini4 a {
     color: $white !important;
-    line-height: 2;
+    line-height: 3;
+    font-size: 11px;
+    font-weight: bolder;
   }
   
   
@@ -238,6 +483,14 @@
     background-color: black;
   }
 
+  .region-footer-second{
+    #block-ellefooter-2{
+      p{
+        font-weight: bold;
+      }
+    }
+  }
+
   .beauty .row{
     display: flex;           /* establish flex container */
     flex-direction: row;  /* make main axis vertical */
@@ -247,6 +500,130 @@
     display: flex;           /* establish flex container */
     flex-direction: row;  /* make main axis vertical */
     justify-content: center;
+  }
+
+  .region-viewbeauty1{
+    .views-field-title{
+      text-align: center;
+    }
+    .views-field-field-author{
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      line-height: 1.6;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  }
+  .region-viewbeauty2{
+    // .views-field-title{
+    //   margin-left: 125px;
+      
+    // }
+
+    .views-row{
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px;
+
+      
+
+      .views-field-field-fashion-image{
+        padding-right: 10px;
+      }
+
+      .views-field-title{
+        padding-top: 20px;
+       
+      }
+
+      .views-field-field-author{
+        position: absolute;
+        margin-top: 75px;
+        margin-left:128px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+    }
+
+    
+  }
+  .region-viewculture2{
+    // .views-field-title{
+    //   margin-left: 125px;
+      
+    // }
+
+    .views-row{
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px;
+
+      .views-field-field-fashion-image{
+        padding-right: 10px;
+      }
+
+      .views-field-title{
+        padding-top: 20px;
+       
+      }
+    }
+
+    
+  }
+
+  .region-viewclothes{
+    .views-field-field-fashion-image img{
+      padding-right: 35px;
+    }
+    .views-field-title{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 10px;
+      padding-left: 10px;
+      a{
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+      }
+    }
+  }
+  .region-trending{
+    .views-field-field-fashion-image img{
+      padding-right: 40px !important;
+    }
+    .views-field-title{
+      padding-top: 20px;
+      padding-bottom: 30px;
+      padding-right: 20px;
+     
+      a{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+       
+
+      }
+    }
+  }
+
+  #block-f1 svg{
+  
+  }
+
+  #block-ellefooter-2{
+   margin-left: 27px;
+    p {
+      line-height: 2.5;
+    }
+  }
+
+  .row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
   }
 
   @media (min-width: 375px) and (max-width: 812px) {
@@ -412,6 +789,13 @@
   font-family: Saol Display Regular;
   font-size: 30px;
   color: $white;
+}
+
+.footer-awesome-icons{
+ 
+  
+  margin-right:120px !important;
+ 
 }
 
   }

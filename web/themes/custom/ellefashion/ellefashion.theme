@@ -1,0 +1,8 @@
+<?php
+
+function ellefashion_preprocess_page(&$variables){
+$variables['today'] = date('H:i, m-d-Y');; 
+$current_path = \Drupal::service('path.current')->getPath();
+$variables['today'] = $current_path;
+
+}

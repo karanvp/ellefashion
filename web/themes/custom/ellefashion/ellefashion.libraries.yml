@@ -5,9 +5,12 @@ bootstrap:
 
   js:
     js/bootstrap.min.js: {}
+   
 
 global:
   css:
     theme:
       css/main.css: {}    
       //fonts.googleapis.com/css?family=Pacifico: {type: external}
+  js:
+     js/custom.js: {}
