@@ -1,43 +1,39 @@
-name: 'ellefashion'
+name: "ellefashion"
 type: theme
-description: 'A great theme for warm days'
+description: "A great theme for warm days"
 core_version_requirement: 9.x
 base theme: classy
 package: Custom
 
 regions:
-  header: 'Header Extended'
-  primary_menu: 'Primary menu'
-  panel: 'panel'
-  panel1: 'panel1'
-  panel2: 'panel2'
-  viewGiftGuides: 'viewGiftGuides'
-  viewBeauty1: 'viewBeauty1'
-  viewBeauty2: 'viewBeauty2'
-  viewStylePoints: 'viewStylePoints'
-  viewOfficeHours: 'viewOfficeHours'
-  viewCulture: 'viewCulture'
-  viewCulture2: 'viewCulture2'
-  viewClothes: 'viewClothes'
-  newsAndPolitics: 'newsAndPolitics'
-  video: 'video'
-  trending: 'trending'
-
- 
-  highlighted: 'Highlighted'
-
-  footer_first: 'Footer first'
-  footer_mini1: 'Footer mini1'
-  footer_mini2: 'Footer mini2'
-  footer_mini3: 'Footer mini3'
-  footer_mini4: 'Footer mini4'
-  footer_second: 'Footer second'
-  
-
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
+  header_top_side: "Header top side"
+  header_top: "Header Top"
+  header: "Header Extended"
+  primary_left_side: "Primary_left_side"
+  primary_menu: "Primary menu"
+  panel: "panel"
+  panel1: "panel1"
+  panel2: "panel2"
+  viewGiftGuides: "viewGiftGuides"
+  viewBeauty1: "viewBeauty1"
+  viewBeauty2: "viewBeauty2"
+  viewStylePoints: "viewStylePoints"
+  viewOfficeHours: "viewOfficeHours"
+  viewCulture: "viewCulture"
+  viewCulture2: "viewCulture2"
+  viewClothes: "viewClothes"
+  newsAndPolitics: "newsAndPolitics"
+  video: "video"
+  trending: "trending"
+  highlighted: "Highlighted"
+  footer_first: "Footer first"
+  footer_mini1: "Footer mini1"
+  footer_mini2: "Footer mini2"
+  footer_mini3: "Footer mini3"
+  footer_mini4: "Footer mini4"
+  footer_second: "Footer second"
+  page_top: "Page top"
+  page_bottom: "Page bottom"
 
 libraries:
   - ellefashion/global
-  
-  

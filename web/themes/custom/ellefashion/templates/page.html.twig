@@ -42,10 +42,13 @@
  * @see html.html.twig
  */
 #}
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
+  {{ attach_library('ellefashion/bootstrap') }}
+  
+  <div class="row">
+    {{ page.header_top }}
+   </div>
+
   <header>
     <div> 
       {{page.header}}
@@ -53,9 +56,14 @@
   </header>
 
 <div class="main-container">
-    <div>
-      {{ page.primary_menu}}    
-    </div>
+    <div class="row">
+   <div class="col-md-1">
+    {{ page.primary_left_side }}
+   </div>
+   <div class="col-md-11">
+    {{ page.primary_menu }}
+   </div>
+   </div>
 
     <div class="container">
     <br>

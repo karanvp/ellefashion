@@ -1,10 +1,12 @@
 bootstrap:
   css:
     theme:
-      css/bootstrap.min.css: {}
+       //maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css: {type: external}
 
   js:
     js/bootstrap.min.js: {}
+    //maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js: {type: external}
+    //ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js: {type: external}
    
 
 global:
@@ -14,3 +16,4 @@ global:
       //fonts.googleapis.com/css?family=Pacifico: {type: external}
   js:
      js/custom.js: {}
+

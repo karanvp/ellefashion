@@ -42,19 +42,28 @@
  * @see html.html.twig
  */
 #}
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
+  {{ attach_library('ellefashion/bootstrap') }}
+  
+   <div class="row">
+   <div class="col-md-1">
+    {{ page.header_top_side }}
+   </div>
+   <div class="col-md-11">
+    {{ page.header_top }}
+   </div>
+   </div>
+
   <header>
+  
     <div> 
-      {{page.header}}
+      {{ page.header }}
     </div>
   </header>
 
 <div class="main-container">
     <div>
-      {{ page.primary_menu}}    
+      {{ page.primary_menu }}    
     </div>
 
     <div class="container">
@@ -211,7 +220,7 @@
 
 {{ page.footer_first }} 
   
-<div class="row footer-mini" style="background-color:black; padding-left:90px;">
+<div class="row footer-mini" style="background-color:white; padding-left:90px;">
     <div class="col-md-3">
       {{  page.footer_mini1  }}
     </div>
