@@ -42,19 +42,28 @@
  * @see html.html.twig
  */
 #}
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
+  {{ attach_library('ellefashion/bootstrap') }}
+
+   <div class="row">
+   <div class="col-md-1">
+      {{ page.header_top_side }}
+   </div>
+   <div class="col-md-11">
+      {{ page.header_top }}
+   </div>
+   </div>
+
   <header>
+  
     <div> 
-      {{page.header}}
+        {{ page.header }}
     </div>
   </header>
 
 <div class="main-container">
     <div>
-      {{ page.primary_menu}}    
+        {{ page.primary_menu }}    
     </div>
 
     <div class="container">
@@ -67,7 +76,7 @@
     <div class="container">
       {% if is_front %}
           <div class="panel1">
-          {{ page.panel1}}
+              {{ page.panel1}}
           </div>
       {% endif %}
     </div>
@@ -107,11 +116,11 @@
     <div class="container beauty">
         <div class="row">
             <div class="col-md-9">
-              {{ page.viewBeauty1 }}
+                {{ page.viewBeauty1 }}
             </div>
 
             <div class="col-md-4">
-              {{ page.viewBeauty2 }}
+                {{ page.viewBeauty2 }}
             </div>
          </div>
       </div>
@@ -126,11 +135,11 @@
 
           <div class="row">
             <div class="col-md-4">
-              {{ page.viewStylePoints}}
+                {{ page.viewStylePoints}}
             </div>
 
             <div class="col-md-4">
-              {{ page.viewOfficeHours }}
+                {{ page.viewOfficeHours }}
             </div>
           </div>      
      </div>
@@ -138,10 +147,10 @@
     {% if is_front %}
         <div class="container">
             <hr>
-          <center>
-          <h1 class="textstyle">CULTURE</h1>
-          <span class="text-cursive">Books, Movies, TV & More</span>
-          </center>
+            <center>
+            <h1 class="textstyle">CULTURE</h1>
+            <span class="text-cursive">Books, Movies, TV & More</span>
+            </center>
             <hr>
         </div>
     {% endif %}
@@ -149,11 +158,11 @@
     <div class="container beauty">
         <div class="row ">
             <div class="col-md-9">
-              {{ page.viewCulture }}
+                {{ page.viewCulture }}
             </div>
 
             <div class="col-md-4">
-              {{ page.viewCulture2 }}
+                {{ page.viewCulture2 }}
             </div>
           </div>
       </div>
@@ -184,7 +193,7 @@
     <div class="container">
     {% if is_front %}
         <div class="panel1">
-          {{ page.newsAndPolitics}}
+            {{ page.newsAndPolitics}}
         </div>
     {% endif %}
     </div>
@@ -211,22 +220,22 @@
 
 {{ page.footer_first }} 
   
-<div class="row footer-mini" style="background-color:black; padding-left:90px;">
+<div class="row footer-mini">
     <div class="col-md-3">
-      {{  page.footer_mini1  }}
+        {{  page.footer_mini1  }}
     </div>
     <div class="col-md-3">
-      {{  page.footer_mini2  }}
+       {{  page.footer_mini2  }}
     </div>
     <div class="col-md-3">
-      {{  page.footer_mini3 }}
+        {{  page.footer_mini3 }}
     </div>
     <div class="col-md-3">
-    {{  page.footer_mini4  }}
+        {{  page.footer_mini4  }}
     </div>
   </div>
 
-<div class="row" style="background-color:black; padding-left:90px;">
+<div class="row" style="footer-mini;">
     {{ page.footer_second }}
 </div>
 

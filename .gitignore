@@ -29,6 +29,8 @@ web/sites/default/settings.local.php
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
 web/modules
+web/themes/custom/ellefashion/css/main.css
+web/themes/custom/ellefashion/css/global.css
 
 # If you prefer to store your .gitignore file in the sites/ folder, comment
 # or delete the previous settings and uncomment the following ones, instead.
