@@ -1102,6 +1102,19 @@ $radius: 0;
     display: flex;
     flex-direction: row;
   }
+  .block-cheeseburgermenu-container {
+    left: -22px;
+  }
+  .block-cheeseburgermenu-container--with-navigation {
+    padding-left: 0px;
+  }
+  .region-primary-menu ul {
+    margin-left: 45px !important;
+  }
+
+  .cheeseburger-menu__item > ul {
+    left: -40px;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 812px) {
@@ -1225,10 +1238,7 @@ $radius: 0;
 
   .region-primary-menu {
     ul {
-      margin-left: 75px !important;
-    }
-    li a {
-      color: red !important;
+      margin-left: 75px;
     }
   }
   .region-newsandpolitics .views-field-field-author {
