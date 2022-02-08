@@ -66,10 +66,6 @@ a {
     font-size: 12px;
   }
 }
-// .main-container{
-//   display: flex;
-//   flex-wrap: wrap;
-// }
 
 .region-panel1 .views-col {
   display: grid;
@@ -293,15 +289,6 @@ a {
     }
   }
 
-  // .views-row{
-  //   width: 100%;
-  //   margin-left: 40px;
-  // }
-
-  // .views-col{
-  //   margin-left: ;
-  // }
-
   .views-field-field-fashion-image {
     img {
       width: 300px;
@@ -374,6 +361,12 @@ a {
 #block-ellefooter-2 p {
   font-size: 12px;
 }
+
+.footer-mini {
+  background-color: black;
+  padding-left: 90px;
+}
+
 .region-footer-mini1 {
   background-color: $black;
 }
@@ -602,13 +595,6 @@ $dd-height: 8px;
 $dd-width: 2px;
 $radius: 0;
 
-// :root {
-//   --aside-bg-color: #2494db;
-//   --aside-text-color: #ffffff;
-//   --main-bg-color: #ffffff;
-//   --main-text-color: #000000;
-// }
-
 @mixin cheeseClearfix {
   &::after {
     content: "";
@@ -617,7 +603,6 @@ $radius: 0;
   }
 }
 
-// Body -- done
 .body--has-active-cheese {
   overscroll-behavior-y: contain;
   overflow: hidden;
@@ -644,6 +629,8 @@ $radius: 0;
   }
 
   &__trigger-element {
+    top: 5px;
+    left: 38px;
     @include touchAreaSize();
     background: $trigger-bg-color;
     position: relative;
@@ -1076,6 +1063,45 @@ $radius: 0;
   border: 1px solid grey;
   margin-right: 25px;
   margin-top: -10px;
+}
+
+.container-fluid ul {
+  margin-left: 850px;
+}
+
+@media (max-width: 375px) {
+  .block-cheeseburgermenu__trigger-element {
+    top: -5%;
+    left: -45%;
+    min-height: 40px;
+    min-width: 40px;
+    background: var(--cheese-trigger-bg-color);
+    position: relative;
+  }
+
+  .navbar-header {
+    position: absolute;
+    left: 14%;
+    height: 50px;
+    top: -93%;
+  }
+  .container-fluid ul {
+    position: absolute;
+    margin-left: 90px;
+    top: -93%;
+    left: 39%;
+  }
+
+  .container-fluid .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 6px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 812px) {

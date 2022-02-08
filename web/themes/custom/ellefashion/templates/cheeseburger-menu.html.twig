@@ -11,14 +11,12 @@
 			{% if not menu.isTitleHidden %}
 				<div {{ menu.titleAttribute }}>{{ menu.title }}</div>
 			{% endif %}
-			<ul
-				class="cheeseburger-menu__mainmenu">
-				{# Each menu item #}
+			<ul class="cheeseburger-menu__mainmenu">
 				<div>{{ drupal_form('Drupal\\search\\Form\\SearchBlockForm') }}</div>
 				<hr class="horizontalline">
-				{% for menu_item in menu %}
-					{{ cheesebuger.render_menu_item(menu_item, trigger_icon) }}
-				{% endfor %}
+					{% for menu_item in menu %}
+						{{ cheesebuger.render_menu_item(menu_item, trigger_icon) }}
+					{% endfor %}
 			</ul>
 		</div>
 	{% endfor %}
