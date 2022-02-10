@@ -1,0 +1,12 @@
+uuid: 0de7449c-8b1f-4693-adb4-5e59067aa53b
+langcode: en
+status: true
+dependencies: {  }
+id: beauty_page
+label: 'beauty page'
+description: ''
+use_admin_theme: false
+path: /beauty
+access_logic: and
+access_conditions: {  }
+parameters: {  }

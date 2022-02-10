@@ -1,0 +1,29 @@
+uuid: 307a74c3-ce4d-44d6-b284-9dbc82a96644
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.beauty_page
+  module:
+    - panels
+id: beauty_page-panels_variant-0
+label: Panels
+weight: 0
+variant: panels_variant
+variant_settings:
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 3b85324b-440e-408c-b580-ff3886b5d5e1
+  blocks: {  }
+  page_title: ''
+  layout: layout_onecol
+  layout_settings:
+    label: ''
+  builder: standard
+  storage_type: page_manager
+  storage_id: beauty_page-panels_variant-0
+page: beauty_page
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

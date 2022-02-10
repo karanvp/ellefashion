@@ -1,0 +1,22 @@
+uuid: 7bc5c586-51b8-4f8b-b782-6f9120cae45d
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ellefashion
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: ellefashion_local_tasks
+theme: ellefashion
+region: header
+weight: -19
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

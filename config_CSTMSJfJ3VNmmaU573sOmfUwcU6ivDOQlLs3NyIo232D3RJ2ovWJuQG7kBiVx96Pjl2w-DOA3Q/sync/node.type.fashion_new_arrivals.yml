@@ -1,0 +1,18 @@
+uuid: b618f7a3-36cd-4401-9913-bd6070ca1c4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'fashion new arrivals'
+type: fashion_new_arrivals
+description: 'new arrivals '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

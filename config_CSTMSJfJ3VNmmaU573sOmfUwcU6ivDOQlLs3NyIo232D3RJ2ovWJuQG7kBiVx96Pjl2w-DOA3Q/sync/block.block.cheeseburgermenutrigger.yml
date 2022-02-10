@@ -1,0 +1,30 @@
+uuid: 3242134f-e62c-47b2-8360-5e2dace3c504
+langcode: en
+status: true
+dependencies:
+  config:
+    - block.block.cheeseburgermenu
+  module:
+    - cheeseburger_menu
+    - system
+  theme:
+    - ellefashion
+id: cheeseburgermenutrigger
+theme: ellefashion
+region: primary_left_side
+weight: -24
+provider: null
+plugin: cheeseburger_menu_trigger
+settings:
+  id: cheeseburger_menu_trigger
+  label: 'Cheeseburger menu trigger'
+  label_display: '0'
+  provider: cheeseburger_menu
+  block_to_trigger: cheeseburgermenu
+  breakpoints: {  }
+  custom_media_query: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

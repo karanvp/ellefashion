@@ -1,0 +1,20 @@
+uuid: cf2da644-b237-4869-af99-11130c155e5e
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ellefashion
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: ellefashion_local_actions
+theme: ellefashion
+region: header
+weight: -21
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: 276a207d-7e64-4f71-9091-fe134ec528f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.officehours_view
+  module:
+    - system
+    - views
+  theme:
+    - ellefashion
+id: views_block__officehours_view_block_1
+theme: ellefashion
+region: viewOfficeHours
+weight: 0
+provider: null
+plugin: 'views_block:officehours_view-block_1'
+settings:
+  id: 'views_block:officehours_view-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -1,0 +1,42 @@
+uuid: bac34efb-3cb0-4a3b-ac1d-2a6801b1313a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fashion_article.body
+    - field.field.node.fashion_article.field_author
+    - field.field.node.fashion_article.field_brief
+    - field.field.node.fashion_article.field_description
+    - field.field.node.fashion_article.field_fashion_image
+    - field.field.node.fashion_article.field_fashion_tags
+    - field.field.node.fashion_article.field_video
+    - node.type.fashion_article
+  module:
+    - text
+    - user
+id: node.fashion_article.teaser
+targetEntityType: node
+bundle: fashion_article
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_author: true
+  field_brief: true
+  field_description: true
+  field_fashion_image: true
+  field_fashion_tags: true
+  field_video: true

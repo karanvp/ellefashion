@@ -1,0 +1,29 @@
+uuid: ce18323d-8464-4097-90b8-12b0390522d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.ellemenu2
+  module:
+    - system
+  theme:
+    - ellefashion
+id: ellemenu2_2
+theme: ellefashion
+region: footer_mini2
+weight: 0
+provider: null
+plugin: 'system_menu_block:ellemenu2'
+settings:
+  id: 'system_menu_block:ellemenu2'
+  label: ellemenu2
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

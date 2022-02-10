@@ -1,0 +1,21 @@
+uuid: 0983869d-9be2-4477-8fca-cdcbffc688c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_brief
+    - node.type.fashion_article
+  module:
+    - text
+id: node.fashion_article.field_brief
+field_name: field_brief
+entity_type: node
+bundle: fashion_article
+label: Brief
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

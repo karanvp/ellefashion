@@ -1,0 +1,29 @@
+uuid: 1343b7e7-4647-411f-a4c0-910f1351a4bf
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.gg
+  module:
+    - system
+    - views
+  theme:
+    - ellefashion
+id: views_block__gg_block_1
+theme: ellefashion
+region: viewGiftGuides
+weight: 0
+provider: null
+plugin: 'views_block:gg-block_1'
+settings:
+  id: 'views_block:gg-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n"

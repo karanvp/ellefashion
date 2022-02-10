@@ -1,0 +1,29 @@
+uuid: 9ed58ce4-b9ee-47ee-9ed2-9013a211345c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gif
+    - media.type.video
+    - node.type.gift_guides
+id: node.gift_guides.field_gif
+field_name: field_gif
+entity_type: node
+bundle: gift_guides
+label: gif
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

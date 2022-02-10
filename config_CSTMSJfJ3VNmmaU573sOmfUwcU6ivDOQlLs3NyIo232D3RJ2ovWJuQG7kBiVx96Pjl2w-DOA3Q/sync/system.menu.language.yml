@@ -1,0 +1,15 @@
+uuid: c2c51ee7-e209-449a-a52d-8516e0803938
+langcode: und
+status: true
+dependencies:
+  module:
+    - cheeseburger_menu
+third_party_settings:
+  cheeseburger_menu:
+    use_langcode: true
+_core:
+  default_config_hash: 43ofkpiImbLaRdxdxvFFLee-VU2g7uOGYi_zPfFg5_E
+id: language
+label: Language
+description: 'Language switcher links'
+locked: false

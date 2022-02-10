@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: QbCCK93vnyGuPAeurbQJVGbAPU1CU7tfn1Lf8TBHh9M
+placeholder_text: Search
+theme: '0'
+size: '16'
+searchpage_enable: 1
+searchpage_submit_not_visible: 1

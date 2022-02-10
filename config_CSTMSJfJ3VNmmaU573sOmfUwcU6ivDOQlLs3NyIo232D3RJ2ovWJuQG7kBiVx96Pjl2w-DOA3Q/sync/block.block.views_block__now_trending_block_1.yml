@@ -1,0 +1,29 @@
+uuid: ee388560-98a1-4093-b38f-e2e4200205bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.now_trending
+  module:
+    - system
+    - views
+  theme:
+    - ellefashion
+id: views_block__now_trending_block_1
+theme: ellefashion
+region: trending
+weight: 0
+provider: null
+plugin: 'views_block:now_trending-block_1'
+settings:
+  id: 'views_block:now_trending-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

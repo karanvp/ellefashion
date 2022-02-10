@@ -1,0 +1,16 @@
+uuid: b1cc2d8d-0bc7-437a-a1f0-09acca632bbe
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bartik
+id: test_responsive_style
+label: 'test responsive style'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: '_original image_'
+    breakpoint_id: bartik.mobile
+    multiplier: 1x
+breakpoint_group: bartik
+fallback_image_style: '_original image_'

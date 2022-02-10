@@ -1,0 +1,8 @@
+uuid: 6d1b040a-a7b1-46a8-9595-55f03fb69921
+langcode: en
+status: true
+dependencies: {  }
+id: elle-main-menu
+label: 'ELLE Main Menu'
+description: 'ELLE''s main menu'
+locked: false

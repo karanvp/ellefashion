@@ -1,0 +1,8 @@
+uuid: ca9add14-f16c-422c-8e86-d249275f8a1d
+langcode: en
+status: true
+dependencies: {  }
+id: footer_block
+label: 'footer block'
+revision: 0
+description: 'contains elle sites footer region'

@@ -1,0 +1,22 @@
+uuid: f9ae1b64-526a-4d75-826a-1d5d7572abdb
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ellefashion
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: ellefashion_powered
+theme: ellefashion
+region: footer_first
+weight: -21
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

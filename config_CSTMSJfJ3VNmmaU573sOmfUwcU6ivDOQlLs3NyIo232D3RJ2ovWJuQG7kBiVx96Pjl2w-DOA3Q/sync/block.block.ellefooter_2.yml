@@ -1,0 +1,30 @@
+uuid: b9e37d35-03a0-43dd-831e-d975d46e3f78
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_block:b424e4b6-2958-47bb-ad96-f7773252471e'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: ellefooter_2
+theme: ellefashion
+region: footer_second
+weight: -21
+provider: null
+plugin: 'block_content:b424e4b6-2958-47bb-ad96-f7773252471e'
+settings:
+  id: 'block_content:b424e4b6-2958-47bb-ad96-f7773252471e'
+  label: 'ELLE Footer'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

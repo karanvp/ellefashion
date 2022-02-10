@@ -1,0 +1,30 @@
+uuid: 5279dad9-b641-4089-8f06-d7377d223c1e
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:video_block:05bd02b2-d9e9-4f51-8a71-b1d159636bd8'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: vb2
+theme: ellefashion
+region: video
+weight: -12
+provider: null
+plugin: 'block_content:05bd02b2-d9e9-4f51-8a71-b1d159636bd8'
+settings:
+  id: 'block_content:05bd02b2-d9e9-4f51-8a71-b1d159636bd8'
+  label: vb2
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

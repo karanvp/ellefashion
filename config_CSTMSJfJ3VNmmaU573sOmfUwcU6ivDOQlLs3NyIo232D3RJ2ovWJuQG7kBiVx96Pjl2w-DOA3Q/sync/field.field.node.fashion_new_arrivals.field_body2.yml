@@ -1,0 +1,21 @@
+uuid: 00d8a59b-9607-47ee-8f07-479875cedf16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body2
+    - node.type.fashion_new_arrivals
+  module:
+    - text
+id: node.fashion_new_arrivals.field_body2
+field_name: field_body2
+entity_type: node
+bundle: fashion_new_arrivals
+label: Body2
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

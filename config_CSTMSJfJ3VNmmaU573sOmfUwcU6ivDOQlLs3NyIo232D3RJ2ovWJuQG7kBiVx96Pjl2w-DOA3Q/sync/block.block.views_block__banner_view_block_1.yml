@@ -1,0 +1,29 @@
+uuid: 746ec4ae-5407-4d52-86d6-ac9fbe988b89
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner_view
+  module:
+    - system
+    - views
+  theme:
+    - ellefashion
+id: views_block__banner_view_block_1
+theme: ellefashion
+region: header
+weight: -25
+provider: null
+plugin: 'views_block:banner_view-block_1'
+settings:
+  id: 'views_block:banner_view-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

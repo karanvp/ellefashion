@@ -1,0 +1,40 @@
+uuid: c5fcf4b1-9213-40fa-9018-edd72d21268d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.banner.field_banner_image
+    - field.field.node.banner.field_type
+    - image.style.large_custom
+    - node.type.banner
+  module:
+    - image
+    - user
+id: node.banner.default
+targetEntityType: node
+bundle: banner
+mode: default
+content:
+  field_banner_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: large_custom
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,8 @@
+uuid: d2ccef5b-deaa-4284-b739-d727e0974099
+langcode: en
+status: true
+dependencies: {  }
+id: video_block
+label: 'video block'
+revision: 0
+description: 'block for displaying videos'

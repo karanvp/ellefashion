@@ -1,0 +1,21 @@
+uuid: ac50f35a-f9fa-4e79-97fd-6da907bb34d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trend1
+    - node.type.fashion_new_arrivals
+  module:
+    - text
+id: node.fashion_new_arrivals.field_trend1
+field_name: field_trend1
+entity_type: node
+bundle: fashion_new_arrivals
+label: trend1
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

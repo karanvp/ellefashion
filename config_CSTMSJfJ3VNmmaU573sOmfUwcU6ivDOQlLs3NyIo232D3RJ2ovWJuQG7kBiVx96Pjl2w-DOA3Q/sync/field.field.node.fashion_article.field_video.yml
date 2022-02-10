@@ -1,0 +1,29 @@
+uuid: 17bc8810-8292-46ca-b678-fc63964312c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video
+    - media.type.video
+    - node.type.fashion_article
+id: node.fashion_article.field_video
+field_name: field_video
+entity_type: node
+bundle: fashion_article
+label: video
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

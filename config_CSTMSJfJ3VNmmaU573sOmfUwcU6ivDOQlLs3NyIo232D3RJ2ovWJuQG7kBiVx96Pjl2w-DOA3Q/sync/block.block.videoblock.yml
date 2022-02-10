@@ -1,0 +1,30 @@
+uuid: 03024c07-7a44-4201-91d2-8d58bb65bf35
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:video_block:b9dd05a9-163b-4af8-a924-616079bb2515'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: videoblock
+theme: ellefashion
+region: video
+weight: -13
+provider: null
+plugin: 'block_content:b9dd05a9-163b-4af8-a924-616079bb2515'
+settings:
+  id: 'block_content:b9dd05a9-163b-4af8-a924-616079bb2515'
+  label: 'video block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
