@@ -459,11 +459,6 @@ a {
   }
 }
 .region-viewbeauty2 {
-  // .views-field-title{
-  //   margin-left: 125px;
-
-  // }
-
   .views-row {
     display: flex;
     flex-direction: row;
@@ -488,11 +483,6 @@ a {
   }
 }
 .region-viewculture2 {
-  // .views-field-title{
-  //   margin-left: 125px;
-
-  // }
-
   .views-row {
     display: flex;
     flex-direction: row;
@@ -539,9 +529,6 @@ a {
       letter-spacing: 0.05em;
     }
   }
-}
-
-#block-f1 svg {
 }
 
 #block-ellefooter-2 {
@@ -1069,7 +1056,53 @@ $radius: 0;
   margin-left: 850px;
 }
 
+.header-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 50px;
+  font-size: 100px;
+  font-family: Saol Display Regular;
+}
+.css-1xs6v63 {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0)
+  );
+  bottom: initial;
+  height: 100%;
+  top: 3px;
+  position: absolute;
+  width: 100%;
+}
+
 @media (max-width: 375px) {
+  .bottom-left {
+    position: absolute;
+    bottom: 24px;
+    left: 20px;
+    font-size: 35px;
+    font-family: Saol Display Regular;
+  }
+  #block-mainnavigation-2 .navbar {
+    min-height: 0px;
+    top: -46px;
+    margin-bottom: 10px;
+  }
+
+  #block-views-block-beauty-banner-view-block-1
+    .views-field-field-banner-image {
+    img {
+      content: url("../elm.jpg");
+    }
+  }
+
   .block-cheeseburgermenu__trigger-element {
     top: -5%;
     left: -45%;
