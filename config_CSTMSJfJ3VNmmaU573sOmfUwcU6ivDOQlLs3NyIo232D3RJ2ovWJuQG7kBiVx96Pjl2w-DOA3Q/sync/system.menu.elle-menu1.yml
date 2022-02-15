@@ -1,0 +1,8 @@
+uuid: 4236fe2d-d817-47f1-b994-3d2e37de8581
+langcode: en
+status: true
+dependencies: {  }
+id: elle-menu1
+label: 'elle menu1'
+description: 'menu 1'
+locked: false

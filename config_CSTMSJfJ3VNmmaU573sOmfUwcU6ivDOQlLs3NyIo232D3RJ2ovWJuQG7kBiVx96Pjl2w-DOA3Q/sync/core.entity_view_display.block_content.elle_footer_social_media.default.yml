@@ -1,0 +1,59 @@
+uuid: 98e71b43-c94e-47cc-b10c-de280ee2d4df
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.elle_footer_social_media
+    - field.field.block_content.elle_footer_social_media.field_icon1
+    - field.field.block_content.elle_footer_social_media.field_icon2
+    - field.field.block_content.elle_footer_social_media.field_icon3
+    - field.field.block_content.elle_footer_social_media.field_icon4
+    - field.field.block_content.elle_footer_social_media.field_icon5
+  module:
+    - fontawesome
+id: block_content.elle_footer_social_media.default
+targetEntityType: block_content
+bundle: elle_footer_social_media
+mode: default
+content:
+  field_icon1:
+    type: fontawesome_icon_formatter
+    label: visually_hidden
+    settings:
+      layers: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_icon2:
+    type: fontawesome_icon_formatter
+    label: visually_hidden
+    settings:
+      layers: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_icon3:
+    type: fontawesome_icon_formatter
+    label: visually_hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_icon4:
+    type: fontawesome_icon_formatter
+    label: visually_hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_icon5:
+    type: fontawesome_icon_formatter
+    label: visually_hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden: {  }

@@ -1,0 +1,20 @@
+uuid: ea0ef1ac-c5d1-4f8d-b53b-e794de99a939
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ellefashion
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: ellefashion_page_title
+theme: ellefashion
+region: header
+weight: -20
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

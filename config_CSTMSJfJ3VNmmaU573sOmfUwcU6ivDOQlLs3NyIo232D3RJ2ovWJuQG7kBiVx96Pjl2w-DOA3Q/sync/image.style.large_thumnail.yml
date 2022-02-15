@@ -1,0 +1,15 @@
+uuid: 173e18cc-47a3-4a52-9f11-8c4601dc644d
+langcode: en
+status: true
+dependencies: {  }
+name: large_thumnail
+label: 'large thumnail'
+effects:
+  9e67a808-cad3-4b6f-89fd-dd5cee2fcbe6:
+    uuid: 9e67a808-cad3-4b6f-89fd-dd5cee2fcbe6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 280
+      anchor: center-center

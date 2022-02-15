@@ -1,0 +1,29 @@
+uuid: c1f59346-3370-4ab3-a4c4-89521258f596
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.video_block
+    - field.storage.block_content.field_vremote
+    - media.type.remote_video
+id: block_content.video_block.field_vremote
+field_name: field_vremote
+entity_type: block_content
+bundle: video_block
+label: vremote
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

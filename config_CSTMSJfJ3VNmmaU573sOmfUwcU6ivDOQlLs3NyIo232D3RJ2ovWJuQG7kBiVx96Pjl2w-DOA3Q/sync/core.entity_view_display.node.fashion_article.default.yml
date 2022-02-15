@@ -1,0 +1,76 @@
+uuid: 6da54475-1f47-4864-a85b-a723cb278e80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.fashion_article.body
+    - field.field.node.fashion_article.field_author
+    - field.field.node.fashion_article.field_brief
+    - field.field.node.fashion_article.field_description
+    - field.field.node.fashion_article.field_fashion_image
+    - field.field.node.fashion_article.field_fashion_tags
+    - field.field.node.fashion_article.field_video
+    - node.type.fashion_article
+  module:
+    - image
+    - text
+    - user
+id: node.fashion_article.default
+targetEntityType: node
+bundle: fashion_article
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_author:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_brief:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_fashion_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_video:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_fashion_tags: true

@@ -1,0 +1,38 @@
+uuid: 939f985a-ec7e-44c5-9e09-c7077b17b8b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - node.type.fashion_new_arrivals
+  module:
+    - image
+id: node.fashion_new_arrivals.field_image
+field_name: field_image
+entity_type: node
+bundle: fashion_new_arrivals
+label: Image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

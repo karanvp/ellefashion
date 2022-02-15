@@ -1,0 +1,29 @@
+uuid: 45634992-8d10-4670-ba36-01d6ea8641d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.clothesview
+  module:
+    - system
+    - views
+  theme:
+    - ellefashion
+id: views_block__clothesview_block_1
+theme: ellefashion
+region: viewClothes
+weight: 0
+provider: null
+plugin: 'views_block:clothesview-block_1'
+settings:
+  id: 'views_block:clothesview-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

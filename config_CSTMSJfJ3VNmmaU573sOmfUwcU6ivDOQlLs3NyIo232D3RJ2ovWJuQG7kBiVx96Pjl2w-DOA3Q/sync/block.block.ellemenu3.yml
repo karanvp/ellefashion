@@ -1,0 +1,29 @@
+uuid: cac28a49-f8e1-4ffa-89db-e4d046afab28
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.ellemenu3
+  module:
+    - system
+  theme:
+    - ellefashion
+id: ellemenu3
+theme: ellefashion
+region: header
+weight: -12
+provider: null
+plugin: 'system_menu_block:ellemenu3'
+settings:
+  id: 'system_menu_block:ellemenu3'
+  label: ellemenu3
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

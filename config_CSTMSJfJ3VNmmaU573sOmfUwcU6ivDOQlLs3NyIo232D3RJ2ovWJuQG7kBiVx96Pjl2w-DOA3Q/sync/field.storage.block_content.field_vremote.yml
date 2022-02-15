@@ -1,0 +1,20 @@
+uuid: 3c985c28-16cf-43e8-9897-c6b4c600ed9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - media
+id: block_content.field_vremote
+field_name: field_vremote
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: b961d212-7406-4f4f-80f3-6864be51ee26
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_brief
+field_name: field_brief
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

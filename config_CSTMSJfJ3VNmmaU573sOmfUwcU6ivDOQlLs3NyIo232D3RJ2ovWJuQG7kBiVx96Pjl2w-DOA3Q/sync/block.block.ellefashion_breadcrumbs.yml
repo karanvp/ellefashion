@@ -1,0 +1,22 @@
+uuid: 80d49250-0f77-4d74-bcad-db137be14d4e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ellefashion
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: ellefashion_breadcrumbs
+theme: ellefashion
+region: header
+weight: -15
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: 477f86e2-d44d-4c30-8fa0-aba8acd35a0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Gift guides'
+type: gift_guides
+description: 'Guides for gifting best gifts this year'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

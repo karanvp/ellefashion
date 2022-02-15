@@ -1,0 +1,36 @@
+uuid: e69029eb-50da-4db9-8f16-f18a2c47a277
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.gift_guides.body
+    - field.field.node.gift_guides.field_display_image
+    - field.field.node.gift_guides.field_gif
+    - field.field.node.gift_guides.field_image
+    - node.type.gift_guides
+  module:
+    - text
+    - user
+id: node.gift_guides.teaser
+targetEntityType: node
+bundle: gift_guides
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_display_image: true
+  field_gif: true
+  field_image: true

@@ -1,0 +1,22 @@
+uuid: 304e7abc-104d-4259-bea7-c97f4a4ee9b0
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ellefashion
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: ellefashion_messages
+theme: ellefashion
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

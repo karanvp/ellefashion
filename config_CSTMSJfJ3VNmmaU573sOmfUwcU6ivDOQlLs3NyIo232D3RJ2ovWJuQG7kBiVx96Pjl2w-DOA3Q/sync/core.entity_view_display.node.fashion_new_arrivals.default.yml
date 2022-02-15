@@ -1,0 +1,98 @@
+uuid: b32b6fd8-24ad-4673-93b2-a84598f127a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.fashion_new_arrivals.body
+    - field.field.node.fashion_new_arrivals.field_author
+    - field.field.node.fashion_new_arrivals.field_body2
+    - field.field.node.fashion_new_arrivals.field_brief_description
+    - field.field.node.fashion_new_arrivals.field_image
+    - field.field.node.fashion_new_arrivals.field_image2
+    - field.field.node.fashion_new_arrivals.field_main_description
+    - field.field.node.fashion_new_arrivals.field_trend1
+    - field.field.node.fashion_new_arrivals.field_trend2
+    - node.type.fashion_new_arrivals
+  module:
+    - image
+    - text
+    - user
+id: node.fashion_new_arrivals.default
+targetEntityType: node
+bundle: fashion_new_arrivals
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_author:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_body2:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_brief_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_image2:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_main_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_trend1:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_trend2:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: a64b6019-1450-4148-b2b6-06cbe7afe650
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.elle_footer_social_media
+    - field.storage.block_content.field_icon4
+  module:
+    - fontawesome
+id: block_content.elle_footer_social_media.field_icon4
+field_name: field_icon4
+entity_type: block_content
+bundle: elle_footer_social_media
+label: icon4
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

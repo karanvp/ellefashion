@@ -1,0 +1,29 @@
+uuid: fee2370d-02a0-443b-ad8a-026fb0d974df
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - ellefashion
+id: mainnavigation_2
+theme: ellefashion
+region: header_top
+weight: -24
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

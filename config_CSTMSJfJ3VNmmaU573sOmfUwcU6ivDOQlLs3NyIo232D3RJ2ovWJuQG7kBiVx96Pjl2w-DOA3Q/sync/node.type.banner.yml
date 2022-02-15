@@ -1,0 +1,18 @@
+uuid: f36b01e8-0bed-4349-92d8-c720a3fd57dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Banner
+type: banner
+description: 'Banner '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

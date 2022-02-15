@@ -1,0 +1,21 @@
+uuid: de776b61-eac7-4188-9ca1-4a41cafb1eaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_brief_description
+    - node.type.fashion_new_arrivals
+  module:
+    - text
+id: node.fashion_new_arrivals.field_brief_description
+field_name: field_brief_description
+entity_type: node
+bundle: fashion_new_arrivals
+label: 'Brief description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

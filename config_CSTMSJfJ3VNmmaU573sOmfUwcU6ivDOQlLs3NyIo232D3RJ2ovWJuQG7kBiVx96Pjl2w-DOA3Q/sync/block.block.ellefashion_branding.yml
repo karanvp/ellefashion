@@ -1,0 +1,29 @@
+uuid: 3e8c0e3a-3f04-4351-99f0-644f8a2321d1
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ellefashion
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: ellefashion_branding
+theme: ellefashion
+region: header
+weight: -22
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

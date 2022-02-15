@@ -1,0 +1,38 @@
+uuid: 3b2911a5-2d08-4367-86e2-c52027cc06dc
+langcode: en
+status: true
+dependencies: {  }
+name: focused_thumbnail_style
+label: 'focused thumbnail style'
+effects:
+  35872e13-4b9a-43f8-800f-a142b6491533:
+    uuid: 35872e13-4b9a-43f8-800f-a142b6491533
+    id: image_resize
+    weight: -8
+    data:
+      width: 350
+      height: 350
+  508698b8-1bad-46c5-a601-6a9ae921f39a:
+    uuid: 508698b8-1bad-46c5-a601-6a9ae921f39a
+    id: image_scale_and_crop
+    weight: -10
+    data:
+      width: 500
+      height: 500
+      anchor: center-top
+  419a3c96-0d1b-415f-9657-442762cc528b:
+    uuid: 419a3c96-0d1b-415f-9657-442762cc528b
+    id: image_crop
+    weight: -9
+    data:
+      width: 350
+      height: 350
+      anchor: center-top
+  e8d4bb33-50fb-484a-8fed-55f4744df885:
+    uuid: e8d4bb33-50fb-484a-8fed-55f4744df885
+    id: image_crop
+    weight: 4
+    data:
+      width: 300
+      height: 250
+      anchor: center-bottom
