@@ -1,0 +1,29 @@
+uuid: 5599a787-d15a-4524-b6cf-baee80af3a49
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.hair_styles
+  module:
+    - system
+    - views
+  theme:
+    - ellefashion
+id: views_block__hair_styles_block_1
+theme: ellefashion
+region: panel
+weight: 0
+provider: null
+plugin: 'views_block:hair_styles-block_1'
+settings:
+  id: 'views_block:hair_styles-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /beauty

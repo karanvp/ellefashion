@@ -1,0 +1,8 @@
+uuid: 69511166-a508-4539-b458-d81ea5d5ac57
+langcode: en
+status: true
+dependencies: {  }
+id: heading
+label: Heading
+revision: 0
+description: 'block for adding custom headings'

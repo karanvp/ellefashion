@@ -1,0 +1,30 @@
+uuid: b3fd78c2-f72a-478a-b820-0d438869bde5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:heading:fe32966a-568e-4cef-8c77-b5a99ae9e179'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: hh
+theme: ellefashion
+region: panel
+weight: -23
+provider: null
+plugin: 'block_content:fe32966a-568e-4cef-8c77-b5a99ae9e179'
+settings:
+  id: 'block_content:fe32966a-568e-4cef-8c77-b5a99ae9e179'
+  label: 'H&H'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /beauty

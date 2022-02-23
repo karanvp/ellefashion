@@ -1,0 +1,15 @@
+uuid: 43163152-9ab9-4759-8b04-d7eb40500bbd
+langcode: en
+status: true
+dependencies: {  }
+name: extra_large_thumbnail
+label: 'extra large thumbnail'
+effects:
+  a391df71-09f1-430f-a247-da8c65380eb5:
+    uuid: a391df71-09f1-430f-a247-da8c65380eb5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 400
+      anchor: center-center
