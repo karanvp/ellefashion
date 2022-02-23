@@ -1082,7 +1082,58 @@ $radius: 0;
   width: 100%;
 }
 
+#block-views-block-hair-trends-block-1 {
+  .views-field-title {
+    text-align: center;
+    a {
+      font-size: 40px;
+    }
+  }
+}
+@media (max-width: 1440px) {
+  #block-views-block-hair-styles-block-1 {
+    .views-row .views-col {
+      width: 37%;
+    }
+    .views-field-title a {
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    .views-field-title {
+      margin-top: 8px;
+    }
+    .views-row {
+      margin-bottom: 10px;
+    }
+  }
+}
+
 @media (max-width: 375px) {
+  .textstyle {
+    font-size: 69px;
+    font-family: Saol Display Regular;
+    line-height: 0.8;
+  }
+  #block-views-block-hair-styles-block-1 .views-field-field-fashion-image img {
+    width: 165px;
+    height: 165px;
+  }
+
+  #block-views-block-hair-styles-block-1 {
+    .views-row .views-col {
+      width: 50%;
+    }
+  }
+
+  #block-views-block-hair-trends-block-1 .views-field-field-fashion-image img {
+    width: 100%;
+    height: auto;
+  }
+  #block-views-block-hair-trends-block-1 .views-field-title a {
+    margin-left: 0px;
+    font-size: 20px;
+  }
   .bottom-left {
     position: absolute;
     bottom: 24px;
@@ -1160,7 +1211,6 @@ $radius: 0;
   .region-newsandpolitics .views-col {
     display: grid;
     grid-template-columns: 1fr;
-
     grid-row-gap: 80px;
   }
 
