@@ -1,21 +1,21 @@
-uuid: caa4faf7-8bf9-4883-8283-59b7cb30f4fe
+uuid: 5f974778-d089-434b-a0f6-a800a9a2333b
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_fashion_image
-    - image.style.extra_large_thumbnail
+    - image.style.medium_custom
     - node.type.fashion_article
     - taxonomy.vocabulary.tags
   content:
-    - 'taxonomy_term:tags:6f08e914-fc4b-4799-aa5a-008401669ae3'
+    - 'taxonomy_term:tags:ed02dc30-bc39-4ae4-b246-229338260ee7'
   module:
     - image
     - node
     - taxonomy
     - user
-id: hair_styles
-label: 'hair styles'
+id: makeup_skincare
+label: 'makeup & skincare'
 module: views
 description: ''
 tag: ''
@@ -28,7 +28,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'hair styles'
+      title: 'makeup & skincare'
       fields:
         field_fashion_image:
           id: field_fashion_image
@@ -83,7 +83,7 @@ display:
           type: image
           settings:
             image_link: content
-            image_style: extra_large_thumbnail
+            image_style: medium_custom
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -145,7 +145,7 @@ display:
         type: some
         options:
           offset: 0
-          items_per_page: 4
+          items_per_page: 8
       exposed_form:
         type: basic
         options:
@@ -218,7 +218,7 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            9: 9
+            10: 10
           group: 1
           exposed: false
           expose:

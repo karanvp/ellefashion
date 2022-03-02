@@ -12,7 +12,7 @@ dependencies:
 id: views_block__hair_styles_block_1
 theme: ellefashion
 region: panel
-weight: 0
+weight: -24
 provider: null
 plugin: 'views_block:hair_styles-block_1'
 settings:

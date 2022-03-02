@@ -1,23 +1,23 @@
-uuid: b3fd78c2-f72a-478a-b820-0d438869bde5
+uuid: 524edf41-dc9d-4a5a-8262-811d12caee7d
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:heading:fe32966a-568e-4cef-8c77-b5a99ae9e179'
+    - 'block_content:heading:699c0a49-273f-4367-b313-3a11103bd3f1'
   module:
     - block_content
     - system
   theme:
     - ellefashion
-id: hh
+id: makeupskincare
 theme: ellefashion
 region: panel
-weight: -25
+weight: -23
 provider: null
-plugin: 'block_content:fe32966a-568e-4cef-8c77-b5a99ae9e179'
+plugin: 'block_content:699c0a49-273f-4367-b313-3a11103bd3f1'
 settings:
-  id: 'block_content:fe32966a-568e-4cef-8c77-b5a99ae9e179'
-  label: 'H&H'
+  id: 'block_content:699c0a49-273f-4367-b313-3a11103bd3f1'
+  label: 'Makeup & Skincare'
   label_display: '0'
   provider: block_content
   status: true
