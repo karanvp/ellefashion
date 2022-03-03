@@ -1090,6 +1090,26 @@ $radius: 0;
     }
   }
 }
+
+#block-views-block-makeup-skincare-block-1 {
+  .views-col {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    width: 50%;
+
+    .views-field-title {
+      padding-top: 130px;
+      margin-left: 10px;
+      a {
+        font-size: 17px;
+        font-family: "Times New Roman", Times, serif;
+      }
+    }
+    .views-field-field-fashion-image {
+    }
+  }
+}
 @media (max-width: 1440px) {
   #block-views-block-hair-styles-block-1 {
     .views-row .views-col {
@@ -1110,6 +1130,27 @@ $radius: 0;
 }
 
 @media (max-width: 375px) {
+  #block-views-block-makeup-skincare-block-1 {
+    .views-col {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px;
+      width: 100%;
+
+      .views-field-title {
+        padding-top: 0px;
+        margin-left: 10px;
+        a {
+          font-size: 17px;
+          font-family: "Times New Roman", Times, serif;
+        }
+      }
+      .views-field-field-fashion-image img {
+        width: 140px;
+        height: 140px;
+      }
+    }
+  }
   .textstyle {
     font-size: 69px;
     font-family: Saol Display Regular;

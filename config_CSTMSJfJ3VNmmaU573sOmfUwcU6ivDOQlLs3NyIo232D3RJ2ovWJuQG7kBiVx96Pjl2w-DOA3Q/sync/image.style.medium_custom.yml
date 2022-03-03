@@ -1,0 +1,15 @@
+uuid: 50b47f07-83c8-47a2-9113-01a7cb53f270
+langcode: en
+status: true
+dependencies: {  }
+name: medium_custom
+label: 'medium custom'
+effects:
+  6f2cf914-bfc6-4e37-b1ed-54e738aa5568:
+    uuid: 6f2cf914-bfc6-4e37-b1ed-54e738aa5568
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      anchor: center-center

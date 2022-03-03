@@ -1,22 +1,22 @@
-uuid: ee9f720e-2cc4-4105-a73a-c7222284c8c5
+uuid: 303e9075-c5c2-4067-acb6-bfb2fd7f4758
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.hair_trends
+    - views.view.beauty_video
   module:
     - system
     - views
   theme:
     - ellefashion
-id: views_block__hair_trends_block_1
+id: views_block__beauty_video_block_1
 theme: ellefashion
-region: panel
-weight: -26
+region: video
+weight: 0
 provider: null
-plugin: 'views_block:hair_trends-block_1'
+plugin: 'views_block:beauty_video-block_1'
 settings:
-  id: 'views_block:hair_trends-block_1'
+  id: 'views_block:beauty_video-block_1'
   label: ''
   label_display: '0'
   provider: views
