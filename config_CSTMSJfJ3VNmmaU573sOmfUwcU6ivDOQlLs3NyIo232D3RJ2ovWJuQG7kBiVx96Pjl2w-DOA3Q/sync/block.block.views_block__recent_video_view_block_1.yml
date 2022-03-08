@@ -12,7 +12,7 @@ dependencies:
 id: views_block__recent_video_view_block_1
 theme: ellefashion
 region: video
-weight: -15
+weight: -29
 provider: null
 plugin: 'views_block:recent_video_view-block_1'
 settings:

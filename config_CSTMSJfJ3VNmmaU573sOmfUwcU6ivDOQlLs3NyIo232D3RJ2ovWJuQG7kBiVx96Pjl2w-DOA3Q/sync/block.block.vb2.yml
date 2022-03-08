@@ -12,7 +12,7 @@ dependencies:
 id: vb2
 theme: ellefashion
 region: video
-weight: -12
+weight: -24
 provider: null
 plugin: 'block_content:05bd02b2-d9e9-4f51-8a71-b1d159636bd8'
 settings:

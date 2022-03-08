@@ -1,22 +1,22 @@
-uuid: ddb32424-a55f-4bca-80ba-01e63c94ce2a
+uuid: a75347ad-59b6-4382-a558-87030f23310a
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.beauty_view
+    - views.view.health
   module:
     - system
     - views
   theme:
     - ellefashion
-id: views_block__beauty_view_block_1
+id: views_block__health_block_2
 theme: ellefashion
-region: viewBeauty1
-weight: -31
+region: viewBeauty2
+weight: -30
 provider: null
-plugin: 'views_block:beauty_view-block_1'
+plugin: 'views_block:health-block_2'
 settings:
-  id: 'views_block:beauty_view-block_1'
+  id: 'views_block:health-block_2'
   label: ''
   label_display: '0'
   provider: views
@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '<front>'
+    pages: /beauty

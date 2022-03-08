@@ -12,7 +12,7 @@ dependencies:
 id: views_block__fashion_new_arrivals_block_1
 theme: ellefashion
 region: panel2
-weight: -11
+weight: -28
 provider: null
 plugin: 'views_block:fashion_new_arrivals-block_1'
 settings:

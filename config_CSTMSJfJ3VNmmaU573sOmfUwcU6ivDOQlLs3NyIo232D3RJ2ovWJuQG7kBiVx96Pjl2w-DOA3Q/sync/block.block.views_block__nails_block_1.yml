@@ -1,22 +1,22 @@
-uuid: ddb32424-a55f-4bca-80ba-01e63c94ce2a
+uuid: 4d050242-09e1-4bb0-a224-b9417d9fd2d6
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.beauty_view
+    - views.view.nails
   module:
     - system
     - views
   theme:
     - ellefashion
-id: views_block__beauty_view_block_1
+id: views_block__nails_block_1
 theme: ellefashion
-region: viewBeauty1
-weight: -31
+region: panel
+weight: -20
 provider: null
-plugin: 'views_block:beauty_view-block_1'
+plugin: 'views_block:nails-block_1'
 settings:
-  id: 'views_block:beauty_view-block_1'
+  id: 'views_block:nails-block_1'
   label: ''
   label_display: '0'
   provider: views
@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '<front>'
+    pages: /beauty

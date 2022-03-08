@@ -1,23 +1,23 @@
-uuid: 83863f98-74bf-4a58-825f-69467089a6d1
+uuid: b0ad3bfe-2bb8-4de8-a39b-8b1ce07176ee
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:heading:ae789321-6ec5-4b94-98fb-ad4881b2b293'
+    - 'block_content:heading:6f0698ab-b947-4fe0-a637-5b5cf734a977'
   module:
     - block_content
     - system
   theme:
     - ellefashion
-id: thestateofblackbeauty
+id: healthfitness
 theme: ellefashion
 region: panel
-weight: -23
+weight: 0
 provider: null
-plugin: 'block_content:ae789321-6ec5-4b94-98fb-ad4881b2b293'
+plugin: 'block_content:6f0698ab-b947-4fe0-a637-5b5cf734a977'
 settings:
-  id: 'block_content:ae789321-6ec5-4b94-98fb-ad4881b2b293'
-  label: 'The State of Black Beauty'
+  id: 'block_content:6f0698ab-b947-4fe0-a637-5b5cf734a977'
+  label: 'Health & Fitness'
   label_display: '0'
   provider: block_content
   status: true
