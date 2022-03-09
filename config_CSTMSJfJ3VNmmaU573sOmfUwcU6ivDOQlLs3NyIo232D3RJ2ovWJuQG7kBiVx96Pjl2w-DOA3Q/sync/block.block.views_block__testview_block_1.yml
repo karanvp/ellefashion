@@ -11,7 +11,7 @@ dependencies:
 id: views_block__testview_block_1
 theme: ellefashion
 region: panel2
-weight: -10
+weight: -27
 provider: null
 plugin: 'views_block:testview-block_1'
 settings:

@@ -12,7 +12,7 @@ dependencies:
 id: videoblock
 theme: ellefashion
 region: video
-weight: -13
+weight: -25
 provider: null
 plugin: 'block_content:b9dd05a9-163b-4af8-a924-616079bb2515'
 settings:

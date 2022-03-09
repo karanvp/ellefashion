@@ -12,7 +12,7 @@ dependencies:
 id: views_block__cultureview1_block_2
 theme: ellefashion
 region: viewCulture2
-weight: 0
+weight: -28
 provider: null
 plugin: 'views_block:cultureview1-block_2'
 settings:
