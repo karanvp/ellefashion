@@ -45,25 +45,30 @@
   
   {{ attach_library('ellefashion/bootstrap') }}
 
-  <div class="row">
-    {{ page.header_top }}
+   <div class="row">
+   <div class="col-md-1">
+      {{ page.header_top_side }}
+   </div>
+   <div class="col-md-11">
+      {{ page.header_top }}
+   </div>
    </div>
 
   <header>
+    <div class="header-container">
     <div> 
-      {{page.header}}
+        {{ page.header }}
+         <div class="css-1xs6v63 ed74erp3">
+            <div class="bottom-left">Culture</div>
+         </div>
+    </div>
     </div>
   </header>
 
 <div class="main-container">
-    <div class="row">
-   <div class="col-md-1">
-      {{ page.primary_left_side }}
-   </div>
-   <div class="col-md-11">
-      {{ page.primary_menu }}
-   </div>
-   </div>
+    <div>
+        {{ page.primary_menu }}    
+    </div>
 
     <div class="container">
     <br>
@@ -125,21 +130,21 @@
       </div>
  
     <div class="container ">
-          {% if is_front %}
+      {% if is_front %}
           <div class="row">
               <div class="col-md-5 fillColor"></div>
               <div class="col-md-5 fillColor"></div>
           </div>
-          {% endif %}
+      {% endif %}
 
           <div class="row">
-              <div class="col-md-4">
-              {{ page.viewStylePoints}}
-              </div>
+            <div class="col-md-4">
+                {{ page.viewStylePoints}}
+            </div>
 
-              <div class="col-md-4">
-              {{ page.viewOfficeHours }}
-              </div>
+            <div class="col-md-4">
+                {{ page.viewOfficeHours }}
+            </div>
           </div>      
      </div>
 
@@ -158,7 +163,7 @@
         <div class="row ">
             <div class="col-md-9">
                 {{ page.viewCulture }}
-              </div>
+            </div>
 
             <div class="col-md-4">
                 {{ page.viewCulture2 }}
@@ -224,7 +229,7 @@
         {{  page.footer_mini1  }}
     </div>
     <div class="col-md-3">
-        {{  page.footer_mini2  }}
+       {{  page.footer_mini2  }}
     </div>
     <div class="col-md-3">
         {{  page.footer_mini3 }}
@@ -234,6 +239,6 @@
     </div>
   </div>
 
-<div class="row footer-mini">
+<div class="row" style="footer-mini;">
     {{ page.footer_second }}
 </div>

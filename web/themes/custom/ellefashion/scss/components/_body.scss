@@ -281,7 +281,7 @@ a {
   height: auto;
 }
 
-.region-viewclothes {
+#block-views-block-clothesview-block-1 {
   .views-field-title {
     a {
       font-weight: bold;
@@ -310,8 +310,6 @@ a {
         font-size: 17px;
         font-family: "Times New Roman", Times, serif;
       }
-    }
-    .views-field-field-fashion-image {
     }
   }
 }
@@ -517,7 +515,7 @@ video {
   }
 }
 
-.region-viewclothes {
+#block-views-block-clothesview-block-1 {
   .views-field-field-fashion-image img {
     padding-right: 35px;
   }
@@ -1152,8 +1150,115 @@ $radius: 0;
     }
   }
 }
+
+#block-views-block-culture-trending-block-1 {
+  .views-field-title {
+    text-align: center;
+    margin-top: 10px;
+    a {
+      font-size: 40px;
+    }
+  }
+}
+
+#block-views-block-latest-celebrity-news-block-1 {
+  .views-col {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    width: 35%;
+
+    .views-field-title {
+      padding-top: 34px;
+      margin-left: 10px;
+      margin-right: 10px;
+      a {
+        font-size: 17px;
+        font-family: "Times New Roman", Times, serif;
+      }
+    }
+  }
+}
+
+#block-views-block-movies-tv-block-2 {
+  .views-row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0px;
+
+    .views-field-field-fashion-image {
+      padding-right: 10px;
+    }
+
+    .views-field-title {
+      padding-top: 10px;
+      a {
+        position: absolute;
+        margin-left: 130px;
+
+        margin-top: -115px;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+#block-views-block-art-design-block-1 {
+  .views-col {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    width: 35%;
+
+    .views-field-title {
+      padding-top: 35px;
+      margin-left: 10px;
+      margin-right: 10px;
+      a {
+        font-size: 17px;
+        font-family: "Times New Roman", Times, serif;
+      }
+    }
+  }
+}
+
+.container {
+  margin-left: 67px !important;
+}
+
+#block-ellefashion-content {
+  margin-top: 100px;
+  margin-left: 410px;
+}
+
+#edit-name {
+  height: 40px;
+  width: 305px;
+}
+#edit-pass {
+  height: 40px;
+  width: 305px;
+}
+
 @media (max-width: 1440px) {
   #block-views-block-hair-styles-block-1 {
+    .views-row .views-col {
+      width: 37%;
+    }
+    .views-field-title a {
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    .views-field-title {
+      margin-top: 8px;
+    }
+    .views-row {
+      margin-bottom: 10px;
+    }
+  }
+
+  #block-views-block-books-block-1 {
     .views-row .views-col {
       width: 37%;
     }
@@ -1172,6 +1277,12 @@ $radius: 0;
 }
 
 @media (max-width: 375px) {
+  #block-views-block-culture-trending-block-1
+    .views-field-field-fashion-image
+    img {
+    width: 100%;
+    height: auto;
+  }
   #block-views-block-makeup-skincare-block-1 {
     .views-col {
       display: flex;
@@ -1215,6 +1326,30 @@ $radius: 0;
       }
     }
   }
+  #block-views-block-latest-celebrity-news-block-1 {
+    .views-col {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 20px;
+      width: 100%;
+
+      .views-field-title {
+        padding-top: 0px;
+        margin-left: 10px;
+        a {
+          font-size: 17px;
+          font-family: "Times New Roman", Times, serif;
+        }
+      }
+      .views-field-field-fashion-image img {
+        width: 140px;
+        height: 140px;
+      }
+    }
+  }
+  #block-views-block-art-design-block-1 .views-col {
+    width: 100% !important;
+  }
   .textstyle {
     font-size: 69px;
     font-family: Saol Display Regular;
@@ -1226,6 +1361,16 @@ $radius: 0;
   }
 
   #block-views-block-hair-styles-block-1 {
+    .views-row .views-col {
+      width: 50%;
+    }
+  }
+  #block-views-block-books-block-1 .views-field-field-fashion-image img {
+    width: 165px;
+    height: 165px;
+  }
+
+  #block-views-block-books-block-1 {
     .views-row .views-col {
       width: 50%;
     }
@@ -1303,6 +1448,9 @@ $radius: 0;
 
   .cheeseburger-menu__item > ul {
     left: -40px;
+  }
+  .container {
+    margin-left: auto !important;
   }
 }
 
@@ -1389,7 +1537,7 @@ $radius: 0;
     }
   }
 
-  .region-viewclothes {
+  #block-views-block-clothesview-block-1 {
     .views-col {
       width: 100% !important;
     }
