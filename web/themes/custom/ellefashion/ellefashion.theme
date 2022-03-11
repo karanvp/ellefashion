@@ -6,3 +6,26 @@ $current_path = \Drupal::service('path.current')->getPath();
 $variables['today'] = $current_path;
 
 }
+
+function ellefashion_form_alter(&$form, $form_state, $form_id) {
+    if ($form['#form_id'] == 'user_login_form') {
+      $form['#attached']['library'][] = 'ellefashion/bootstrap';
+      $form['Heading'] = [
+        '#markup' => '<div class="insta_head"></div>',
+      ];
+      $form['name']['#attributes']['placeholder'] = t('Username');
+      $form['pass']['#attributes']['placeholder'] = t('Password');
+      $form['key_2'] = [
+        '#markup' => '<a class="btn-fb" href="http://localhost/ellefashion/web/user/login/facebook">Sign in to facebook</a>',  
+      ];
+     $form['name']['#title_display'] = 'invisible';
+     $form['pass']['#title_display'] = 'invisible';
+     $form['actions']['submit']['#value'] = t('Sign In');
+
+     unset($form['name']['#description']);	
+	 unset($form['pass']['#description']);	
+
+     
+   
+    }
+  }
