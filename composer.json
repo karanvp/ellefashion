@@ -21,6 +21,7 @@
         "drupal/core-recommended": "^9.3",
         "drupal/social_auth": "^3.0",
         "drupal/social_auth_facebook": "^3.0",
+        "drupal/social_auth_google": "^3.0@RC",
         "drush/drush": "^10.6"
     },
     "conflict": {
