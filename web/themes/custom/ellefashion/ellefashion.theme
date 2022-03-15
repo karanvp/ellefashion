@@ -15,12 +15,30 @@ function ellefashion_form_alter(&$form, $form_state, $form_id) {
       ];
       $form['name']['#attributes']['placeholder'] = t('Username');
       $form['pass']['#attributes']['placeholder'] = t('Password');
-      $form['key_2'] = [
-        '#markup' => '<a class="btn-fb" href="http://localhost/ellefashion/web/user/login/facebook">Sign in to facebook</a>',  
-      ];
+    
      $form['name']['#title_display'] = 'invisible';
      $form['pass']['#title_display'] = 'invisible';
-     $form['actions']['submit']['#value'] = t('Sign In');
+     $form['actions']['submit']['#value'] = t('Sign In with mylo');
+     $form['key_1'] = [
+        '#markup' => '<div class="social-integration"><a class="btn-social" href="http://localhost/ellefashion/web/user/login/google">Sign in with Google</a>
+        <a class="btn-social" href="http://localhost/ellefashion/web/user/login/facebook">Sign in with Facebook</a></div>',  
+      ];
+      $form['forgot_pwd'] = [
+        '#markup' => '<a class="textBlue" href="">Forgot Password?</a>',  
+      ];
+      $form['or'] = [
+        '#markup' => '<div class="fVAAGi"><span>or</span></div>',  
+      ];
+    //  $form['key_2'] = [
+    //     '#markup' => '<a class="btn-fb" href="http://localhost/ellefashion/web/user/login/facebook">Sign in with Facebook</a>',  
+    //   ];
+
+    $order = ['Heading', 'name', 'pass', 'forgot_pwd',
+    'actions','or','key_1'
+  ];
+  foreach ($order as $key => $field) {
+    $form[$field]['#weight'] = $key;
+  }
 
      unset($form['name']['#description']);	
 	 unset($form['pass']['#description']);	
