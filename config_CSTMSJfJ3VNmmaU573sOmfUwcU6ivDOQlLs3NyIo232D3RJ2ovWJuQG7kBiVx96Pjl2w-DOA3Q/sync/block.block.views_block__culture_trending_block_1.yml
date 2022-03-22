@@ -1,0 +1,29 @@
+uuid: 818aa08c-fb89-46cc-99a6-0d755c24c07d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.culture_trending
+  module:
+    - system
+    - views
+  theme:
+    - ellefashion
+id: views_block__culture_trending_block_1
+theme: ellefashion
+region: panel
+weight: -27
+provider: null
+plugin: 'views_block:culture_trending-block_1'
+settings:
+  id: 'views_block:culture_trending-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /culture

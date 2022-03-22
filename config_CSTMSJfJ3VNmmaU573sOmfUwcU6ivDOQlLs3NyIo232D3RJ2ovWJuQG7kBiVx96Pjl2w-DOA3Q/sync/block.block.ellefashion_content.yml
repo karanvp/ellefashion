@@ -11,7 +11,7 @@ _core:
 id: ellefashion_content
 theme: ellefashion
 region: panel
-weight: -29
+weight: -38
 provider: null
 plugin: system_main_block
 settings:

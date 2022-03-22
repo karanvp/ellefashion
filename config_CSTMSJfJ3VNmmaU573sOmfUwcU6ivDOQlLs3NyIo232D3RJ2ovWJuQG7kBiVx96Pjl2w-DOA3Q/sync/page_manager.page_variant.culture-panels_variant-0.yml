@@ -1,0 +1,29 @@
+uuid: 32446957-9242-48d6-8637-286b2aef1bc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.culture
+  module:
+    - panels
+id: culture-panels_variant-0
+label: Panels
+weight: 0
+variant: panels_variant
+variant_settings:
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 49dbb319-6448-4eff-aa11-ff275ea446fc
+  blocks: {  }
+  page_title: ''
+  layout: layout_onecol
+  layout_settings:
+    label: ''
+  builder: standard
+  storage_type: page_manager
+  storage_id: culture-panels_variant-0
+page: culture
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

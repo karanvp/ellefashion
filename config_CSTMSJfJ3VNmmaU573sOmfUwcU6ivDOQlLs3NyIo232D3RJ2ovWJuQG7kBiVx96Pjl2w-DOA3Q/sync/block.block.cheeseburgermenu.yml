@@ -11,7 +11,7 @@ dependencies:
 id: cheeseburgermenu
 theme: ellefashion
 region: primary_menu
-weight: -23
+weight: -38
 provider: null
 plugin: cheeseburger_menu
 settings:

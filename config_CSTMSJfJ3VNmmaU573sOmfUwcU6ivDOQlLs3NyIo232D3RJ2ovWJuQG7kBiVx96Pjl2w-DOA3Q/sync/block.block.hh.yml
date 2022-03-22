@@ -12,7 +12,7 @@ dependencies:
 id: hh
 theme: ellefashion
 region: panel
-weight: -27
+weight: -36
 provider: null
 plugin: 'block_content:fe32966a-568e-4cef-8c77-b5a99ae9e179'
 settings:

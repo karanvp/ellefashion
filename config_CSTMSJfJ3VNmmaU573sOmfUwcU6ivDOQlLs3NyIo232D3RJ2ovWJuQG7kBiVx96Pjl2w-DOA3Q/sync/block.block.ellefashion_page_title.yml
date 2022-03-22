@@ -9,7 +9,7 @@ _core:
 id: ellefashion_page_title
 theme: ellefashion
 region: header
-weight: -20
+weight: -31
 provider: null
 plugin: page_title_block
 settings:

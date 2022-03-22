@@ -1,0 +1,30 @@
+uuid: 229d1a5e-82a4-4a90-ab46-4c5bf50bb795
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:78ad2049-58aa-486a-a847-4a4b17bbbac2'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: ellelogo
+theme: ellefashion
+region: panel
+weight: -40
+provider: null
+plugin: 'block_content:78ad2049-58aa-486a-a847-4a4b17bbbac2'
+settings:
+  id: 'block_content:78ad2049-58aa-486a-a847-4a4b17bbbac2'
+  label: 'ELLE LOGO'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/login

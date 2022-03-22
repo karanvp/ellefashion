@@ -1,0 +1,29 @@
+uuid: 006ac227-2eb7-47b7-ad34-1ef0049ddbae
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.art_design
+  module:
+    - system
+    - views
+  theme:
+    - ellefashion
+id: views_block__art_design_block_1
+theme: ellefashion
+region: viewClothes
+weight: 0
+provider: null
+plugin: 'views_block:art_design-block_1'
+settings:
+  id: 'views_block:art_design-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /culture

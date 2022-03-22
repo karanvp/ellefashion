@@ -12,7 +12,7 @@ dependencies:
 id: views_block__makeup_skincare_block_1
 theme: ellefashion
 region: panel
-weight: -24
+weight: -33
 provider: null
 plugin: 'views_block:makeup_skincare-block_1'
 settings:

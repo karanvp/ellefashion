@@ -11,7 +11,7 @@ _core:
 id: ellefashion_help
 theme: ellefashion
 region: header
-weight: -17
+weight: -28
 provider: null
 plugin: help_block
 settings:

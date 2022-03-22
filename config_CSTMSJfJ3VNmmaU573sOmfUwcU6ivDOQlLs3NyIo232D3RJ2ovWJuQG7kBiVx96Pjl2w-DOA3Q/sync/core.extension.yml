@@ -47,16 +47,24 @@ module:
   responsive_image: 0
   search: 0
   shortcut: 0
+  social_api: 0
+  social_auth: 0
+  social_auth_facebook: 0
+  social_auth_google: 0
   statistics: 0
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   twig_tweak: 0
   update: 0
   user: 0
+  views_autocomplete_filters: 0
+  views_autosubmit: 0
   views_ui: 0
+  pathauto: 1
   views: 10
   standard: 1000
 theme:

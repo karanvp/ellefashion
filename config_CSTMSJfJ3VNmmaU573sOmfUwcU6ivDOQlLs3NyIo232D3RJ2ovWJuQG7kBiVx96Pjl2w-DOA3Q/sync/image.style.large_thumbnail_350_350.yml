@@ -1,0 +1,15 @@
+uuid: e727da39-2471-4bda-9573-0736c740b0ee
+langcode: en
+status: true
+dependencies: {  }
+name: large_thumbnail_350_350
+label: 'large thumbnail 350*350'
+effects:
+  d4297029-a875-47a5-8807-fa0586c182e7:
+    uuid: d4297029-a875-47a5-8807-fa0586c182e7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 350
+      anchor: center-center

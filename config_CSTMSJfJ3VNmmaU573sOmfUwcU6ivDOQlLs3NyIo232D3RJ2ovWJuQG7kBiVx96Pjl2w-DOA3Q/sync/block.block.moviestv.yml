@@ -1,0 +1,30 @@
+uuid: ee2062ba-2314-4f51-b252-eeb40ea4271b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:heading:f97bce65-7758-419c-bd6a-212170e650fb'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: moviestv
+theme: ellefashion
+region: panel
+weight: -24
+provider: null
+plugin: 'block_content:f97bce65-7758-419c-bd6a-212170e650fb'
+settings:
+  id: 'block_content:f97bce65-7758-419c-bd6a-212170e650fb'
+  label: 'Movies & TV'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /culture

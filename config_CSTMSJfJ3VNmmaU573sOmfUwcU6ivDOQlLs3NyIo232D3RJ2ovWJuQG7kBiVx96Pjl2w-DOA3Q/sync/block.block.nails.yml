@@ -12,7 +12,7 @@ dependencies:
 id: nails
 theme: ellefashion
 region: panel
-weight: -21
+weight: -30
 provider: null
 plugin: 'block_content:6c8e35fb-792b-481d-aa81-844b8c32b273'
 settings:

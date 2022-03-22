@@ -1,0 +1,22 @@
+uuid: b9afb38d-749d-4702-8321-e1de81b93ff5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: fashion_articles_pattern
+label: 'Fashion articles pattern'
+type: 'canonical_entities:node'
+pattern: '/[node:field_fashion_tags]/[node:nid]/[node:title]'
+selection_criteria:
+  1d31225c-f38b-49e8-a973-f14774629191:
+    id: node_type
+    negate: false
+    uuid: 1d31225c-f38b-49e8-a973-f14774629191
+    context_mapping:
+      node: node
+    bundles:
+      fashion_article: fashion_article
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,30 @@
+uuid: 6711e0bf-1567-4ca0-90fc-9acaf4c3d387
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:heading:3f51e56b-0b4d-4f33-a415-489562c9fdbc'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: art
+theme: ellefashion
+region: viewClothes
+weight: 0
+provider: null
+plugin: 'block_content:3f51e56b-0b4d-4f33-a415-489562c9fdbc'
+settings:
+  id: 'block_content:3f51e56b-0b4d-4f33-a415-489562c9fdbc'
+  label: 'Art '
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /culture
