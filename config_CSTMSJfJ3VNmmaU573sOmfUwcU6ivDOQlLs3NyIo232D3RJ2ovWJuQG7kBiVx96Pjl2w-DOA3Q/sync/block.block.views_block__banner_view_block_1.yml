@@ -12,7 +12,7 @@ dependencies:
 id: views_block__banner_view_block_1
 theme: ellefashion
 region: header
-weight: -25
+weight: -40
 provider: null
 plugin: 'views_block:banner_view-block_1'
 settings:

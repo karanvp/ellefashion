@@ -1,0 +1,29 @@
+uuid: 61672fcf-4234-49a7-8797-e58bff74f4b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.books
+  module:
+    - system
+    - views
+  theme:
+    - ellefashion
+id: views_block__books_block_1
+theme: ellefashion
+region: viewClothes
+weight: -33
+provider: null
+plugin: 'views_block:books-block_1'
+settings:
+  id: 'views_block:books-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /culture

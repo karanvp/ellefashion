@@ -12,7 +12,7 @@ dependencies:
 id: thestateofblackbeauty
 theme: ellefashion
 region: panel
-weight: -23
+weight: -32
 provider: null
 plugin: 'block_content:ae789321-6ec5-4b94-98fb-ad4881b2b293'
 settings:

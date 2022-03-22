@@ -12,7 +12,7 @@ dependencies:
 id: cheeseburgermenutrigger
 theme: ellefashion
 region: primary_left_side
-weight: -24
+weight: -38
 provider: null
 plugin: cheeseburger_menu_trigger
 settings:
@@ -26,5 +26,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    negate: false
-    pages: '<front>'
+    negate: true
+    pages: /searchview

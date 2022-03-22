@@ -1,0 +1,30 @@
+uuid: a21dd2ee-f19d-40a2-9e55-badbc48b98d9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:heading:e701402a-17be-4ac2-8ae2-a789cabb5b41'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: books
+theme: ellefashion
+region: viewClothes
+weight: -34
+provider: null
+plugin: 'block_content:e701402a-17be-4ac2-8ae2-a789cabb5b41'
+settings:
+  id: 'block_content:e701402a-17be-4ac2-8ae2-a789cabb5b41'
+  label: Books
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /culture

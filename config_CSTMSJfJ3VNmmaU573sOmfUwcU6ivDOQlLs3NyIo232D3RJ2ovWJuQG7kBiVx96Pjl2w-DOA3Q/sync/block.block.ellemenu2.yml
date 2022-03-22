@@ -11,7 +11,7 @@ dependencies:
 id: ellemenu2
 theme: ellefashion
 region: header
-weight: -13
+weight: -24
 provider: null
 plugin: 'system_menu_block:ellemenu2'
 settings:

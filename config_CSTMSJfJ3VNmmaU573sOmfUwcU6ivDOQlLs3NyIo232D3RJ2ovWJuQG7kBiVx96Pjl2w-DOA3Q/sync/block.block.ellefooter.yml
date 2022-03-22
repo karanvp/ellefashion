@@ -12,7 +12,7 @@ dependencies:
 id: ellefooter
 theme: ellefashion
 region: header
-weight: -23
+weight: -34
 provider: null
 plugin: 'block_content:b424e4b6-2958-47bb-ad96-f7773252471e'
 settings:

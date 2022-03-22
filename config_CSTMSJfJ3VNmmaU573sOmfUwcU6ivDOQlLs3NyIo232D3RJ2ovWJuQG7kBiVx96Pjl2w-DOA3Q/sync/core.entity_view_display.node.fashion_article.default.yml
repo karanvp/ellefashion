@@ -25,38 +25,38 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 6
     region: content
   field_author:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
-    weight: 4
+    weight: 3
     region: content
   field_brief:
     type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 6
-    region: content
-  field_description:
-    type: text_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 1
     region: content
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
   field_fashion_image:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
       image_style: ''
     third_party_settings: {  }
-    weight: 3
+    weight: 4
     region: content
   field_video:
     type: entity_reference_entity_view

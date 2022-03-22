@@ -1,0 +1,30 @@
+uuid: e7d4bede-9b09-4de5-a042-f32b40b55c63
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a4f99fb0-02d5-4666-95bd-a5f52bb3e63c'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: googlelogo
+theme: ellefashion
+region: panel
+weight: -23
+provider: null
+plugin: 'block_content:a4f99fb0-02d5-4666-95bd-a5f52bb3e63c'
+settings:
+  id: 'block_content:a4f99fb0-02d5-4666-95bd-a5f52bb3e63c'
+  label: 'Google logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/login

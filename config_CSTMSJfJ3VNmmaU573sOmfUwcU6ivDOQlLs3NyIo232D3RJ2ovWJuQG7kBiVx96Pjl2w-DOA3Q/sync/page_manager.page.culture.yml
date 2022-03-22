@@ -1,0 +1,12 @@
+uuid: 3570bcc2-c5e5-47b4-8e94-3d6a04dd9efa
+langcode: en
+status: true
+dependencies: {  }
+id: culture
+label: culture
+description: 'page about culture based articles'
+use_admin_theme: false
+path: /culture
+access_logic: and
+access_conditions: {  }
+parameters: {  }

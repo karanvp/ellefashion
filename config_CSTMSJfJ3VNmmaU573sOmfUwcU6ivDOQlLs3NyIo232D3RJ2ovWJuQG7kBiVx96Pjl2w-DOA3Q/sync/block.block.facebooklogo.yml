@@ -1,0 +1,30 @@
+uuid: 3a6725ed-63ec-437d-baa4-959514e52e5e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e59a0d2c-3e2a-4555-94ff-24437c12c9e0'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: facebooklogo
+theme: ellefashion
+region: panel
+weight: -22
+provider: null
+plugin: 'block_content:e59a0d2c-3e2a-4555-94ff-24437c12c9e0'
+settings:
+  id: 'block_content:e59a0d2c-3e2a-4555-94ff-24437c12c9e0'
+  label: 'facebook logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/login

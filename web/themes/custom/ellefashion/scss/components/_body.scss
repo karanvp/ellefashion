@@ -1226,7 +1226,7 @@ $radius: 0;
   margin-left: 117px;
 }
 
-#block-ellefashion-content {
+#user-login-form {
   // margin-top: 100px;
   margin-left: 410px;
 }
@@ -1400,6 +1400,130 @@ $radius: 0;
   }
 }
 
+#block-addkeywords {
+  margin-top: 130px;
+  position: absolute;
+  margin-left: -20px;
+  font-size: 17px;
+}
+
+#block-views-block-related-content-block-1 {
+  .views-field-title {
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    a {
+      font-size: 20px;
+    }
+  }
+}
+#block-ellefashion-content {
+  p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .node--type-fashion-article {
+    .field--name-field-author {
+      a {
+        font-size: 20px;
+        top: -100px;
+        position: absolute;
+        left: 90px;
+      }
+    }
+    .field--name-field-description {
+      font-size: 20px;
+      top: -160px;
+      position: absolute;
+      left: 40px;
+      font-style: italic;
+    }
+    .field--name-body {
+      margin-top: 40px;
+      margin-right: 152px;
+    }
+  }
+  .view-content {
+    margin-top: 100px;
+  }
+
+  .view-header {
+    margin-top: 140px;
+    position: absolute;
+    font-size: 17px;
+    color: grey;
+  }
+  .view-searchview {
+    label {
+      display: none;
+    }
+    input {
+      background: transparent;
+      border: 0;
+      padding: 0;
+      width: 1115px;
+      height: 75px;
+      font-size: 50px;
+      border-bottom: 2px solid pink;
+      outline: 0;
+    }
+    .views-col {
+      width: 30%;
+      margin-right: 25px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+
+      .views-field-title {
+        text-align: center;
+        a {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+.page-title {
+  background-color: #f0ede5;
+  color: black;
+  height: 40vh;
+  text-align: left;
+
+  .field--name-title {
+    font-size: 56px;
+    font-family: "Saol Display Regular";
+    margin-left: 130px;
+    position: absolute;
+    margin-top: 65px;
+    font-weight: 100;
+  }
+}
+
+.author-image img {
+  margin-top: -90px;
+  width: auto;
+  border-radius: 50%;
+  height: 47px;
+  margin-left: 130px;
+  position: absolute;
+}
+
+.more-stbb {
+  font-family: "Saol Display Regular";
+  font-size: 35px;
+  line-height: 1.2;
+  color: #000;
+  //letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  -webkit-font-smoothing: auto;
+}
+
+.mfr {
+  font-size: 18px;
+}
 @media (max-width: 1440px) {
   #block-views-block-hair-styles-block-1 {
     .views-row .views-col {
@@ -1437,6 +1561,42 @@ $radius: 0;
 }
 
 @media (max-width: 375px) {
+  #block-addkeywords {
+    margin-left: 0px;
+  }
+  #block-ellefashion-content .views-field-field-fashion-image img {
+    height: 150px;
+    width: auto;
+  }
+  #block-ellefashion-content .view-searchview {
+    label {
+      display: none;
+    }
+    input {
+      background: transparent;
+      border: 0;
+      padding: 0;
+      width: 340px;
+      height: 75px;
+      font-size: 50px;
+      border-bottom: 2px solid pink;
+      outline: 0;
+    }
+    .views-col {
+      width: 39%;
+      margin-right: 25px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+
+      .views-field-title {
+        text-align: center;
+        a {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
   #block-leftarrow {
     margin-left: 200px;
     margin-top: -43px;

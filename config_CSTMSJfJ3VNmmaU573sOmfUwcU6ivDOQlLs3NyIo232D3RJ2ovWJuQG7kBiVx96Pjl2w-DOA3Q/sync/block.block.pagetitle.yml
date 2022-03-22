@@ -1,0 +1,24 @@
+uuid: ad8718fa-6a34-447f-a858-b1653d77e228
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ellefashion
+id: pagetitle
+theme: ellefashion
+region: header
+weight: -35
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "<front>\r\n/user\r\n/searchview"

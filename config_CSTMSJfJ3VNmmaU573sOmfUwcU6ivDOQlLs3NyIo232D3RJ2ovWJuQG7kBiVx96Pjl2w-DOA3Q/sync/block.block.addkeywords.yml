@@ -1,0 +1,30 @@
+uuid: 0a496205-21a0-4c6a-9e3a-b661c8e12d6d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:874b909a-ed02-444c-a909-24e50c61b113'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: addkeywords
+theme: ellefashion
+region: primary_menu
+weight: -36
+provider: null
+plugin: 'block_content:874b909a-ed02-444c-a909-24e50c61b113'
+settings:
+  id: 'block_content:874b909a-ed02-444c-a909-24e50c61b113'
+  label: 'Add keywords'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /searchview

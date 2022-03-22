@@ -1,0 +1,29 @@
+uuid: 71e4b349-a74e-4797-a413-fde319bdb7a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.movies_tv
+  module:
+    - system
+    - views
+  theme:
+    - ellefashion
+id: views_block__movies_tv_block_2
+theme: ellefashion
+region: viewBeauty2
+weight: 0
+provider: null
+plugin: 'views_block:movies_tv-block_2'
+settings:
+  id: 'views_block:movies_tv-block_2'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /culture

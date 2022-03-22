@@ -1,0 +1,30 @@
+uuid: 0c705695-4f10-41eb-9fcb-bb2a686d0e7f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fb3bd312-0025-463a-be30-43465f32215e'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: authenticationheader
+theme: ellefashion
+region: header
+weight: -37
+provider: null
+plugin: 'block_content:fb3bd312-0025-463a-be30-43465f32215e'
+settings:
+  id: 'block_content:fb3bd312-0025-463a-be30-43465f32215e'
+  label: 'Authentication Header'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/login

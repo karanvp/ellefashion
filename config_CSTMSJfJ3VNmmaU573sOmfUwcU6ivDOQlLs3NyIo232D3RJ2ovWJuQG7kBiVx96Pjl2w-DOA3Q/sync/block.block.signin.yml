@@ -1,0 +1,30 @@
+uuid: dd0fe20a-17a3-45d8-a14c-331231b689fa
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:heading:41dca7f0-1972-4181-b681-149ac2cd338e'
+  module:
+    - block_content
+    - system
+  theme:
+    - ellefashion
+id: signin
+theme: ellefashion
+region: panel
+weight: -39
+provider: null
+plugin: 'block_content:41dca7f0-1972-4181-b681-149ac2cd338e'
+settings:
+  id: 'block_content:41dca7f0-1972-4181-b681-149ac2cd338e'
+  label: 'SIGN IN'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/login

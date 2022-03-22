@@ -12,7 +12,7 @@ dependencies:
 id: views_block__clothesview_block_1
 theme: ellefashion
 region: viewClothes
-weight: 0
+weight: -35
 provider: null
 plugin: 'views_block:clothesview-block_1'
 settings:
